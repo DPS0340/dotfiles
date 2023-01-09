@@ -21,7 +21,9 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-brew install zsh neovim tldr
+brew install zsh neovim tldr gh
+
+gh auth login
 
 chsh -s $(which zsh)
 
