@@ -19,7 +19,7 @@ ln -s $DIR/init-discord-rpc.sh ~/init-discord-rpc.sh
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-  if ["$(uname)" == "Linux" ] then
+  if ["$(uname)" == "Linux" ]; then
     echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/dps0340/.profile
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
   else

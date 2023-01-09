@@ -38,26 +38,23 @@ alias l='exa -l -a'
 alias nf='neofetch'
 
 
-if [ ! -z $WSL_ENABLE ]
-then
-alias clip='win32yank.exe -i'
-alias pwsh='powershell.exe'
+if [ ! -z $WSL_ENABLE ]; then
+    alias clip='win32yank.exe -i'
+    alias pwsh='powershell.exe'
 
-# Requires Pscx
-# https://github.com/Pscx/Pscx
-# Install-Module Pscx -Scope CurrentUser -AllowClobber
-neovideAlias='exec_neovide() {
- powershell.exe neovide --wsl "$1" &
- { sleep 2s ; powershell.exe Set-ForegroundWindow (Get-Process neovide)[-1].MainWindowHandle } &
-}; exec_neovide'
+    # Requires Pscx
+    # https://github.com/Pscx/Pscx
+    # Install-Module Pscx -Scope CurrentUser -AllowClobber
+    neovideAlias='exec_neovide() {
+    powershell.exe neovide --wsl "$1" &
+    { sleep 2s ; powershell.exe Set-ForegroundWindow (Get-Process neovide)[-1].MainWindowHandle } &
+    }; exec_neovide'
 
-alias open='explorer.exe'
-alias init-discord-rpc='sudo ~/init-discord-rpc.sh'
-
+    alias open='explorer.exe'
+    alias init-discord-rpc='sudo ~/init-discord-rpc.sh'
 else
-alias clip='xclip -sel clip'
-neovideAlias='neovide'   
-
+    alias clip='xclip -sel clip'
+    neovideAlias='neovide'   
 fi
 
 alias neovide=$neovideAlias
