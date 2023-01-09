@@ -52,6 +52,7 @@ neovideAlias='exec_neovide() {
 }; exec_neovide'
 
 alias open='explorer.exe'
+alias init-discord-rpc='sudo ~/init-discord-rpc.sh'
 
 else
 alias clip='xclip -sel clip'
@@ -72,8 +73,6 @@ alias cl='clear'
 alias td='tldr'
 
 alias gcomp='g++ -O3 -Ofast -funroll-loops -msse -msse2 -msse3 -mssse3 -msse4 -mavx -mavx2 -std=c++17'
-
-alias init-discord-rpc='sudo ~/init-discord-rpc.sh'
 
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
