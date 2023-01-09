@@ -7,6 +7,7 @@ sudo rm -rf /usr/share/nvm/init-nvm.sh
 rm -rf ~/.config
 rm -rf ~/.zsh
 rm -rf ~/.zprofile
+rm -rf ~/.zplugin
 rm -rf ~/.vim_runtime
 
 DIR=$(pwd)
@@ -17,6 +18,7 @@ ln -s $DIR/vim_runtime ~/.vim_runtime
 ln -s $DIR/config ~/.config
 ln -s $DIR/zsh ~/.zsh
 ln -s $DIR/zprofile ~/.zprofile
+ln -s $DIR/zplugin ~/.zplugin
 sudo mkdir -p /usr/share/nvm
 sudo ln -s $DIR/init-nvm.sh /usr/share/nvm/init-nvm.sh
 ln -s $DIR/init-discord-rpc.sh ~/init-discord-rpc.sh
@@ -27,7 +29,8 @@ if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
   if [ "$(uname)" == "Linux" ]; then
-    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/dps0340/.profile
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/dps0340/.bashrc
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/dps0340/.zshrc
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
   else
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
@@ -35,13 +38,9 @@ if test ! $(which brew); then
   fi
 fi
 
-brew install zsh neovim tldr gh bat exa neofetch
-
-curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+brew install zsh zplug neovim tldr gh bat exa neofetch
 
 gh auth login
 
 command -v zsh | sudo tee -a /etc/shells
-chsh -s $(which zsh)
-
-source ~/.zshrc
+zsh
