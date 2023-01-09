@@ -4,3 +4,6 @@
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/DPS0340/BlaCk-Void-Zsh
+[submodule "zplugin"]
+	path = zplugin
+	url = https://github.com/DPS0340/zplugin
