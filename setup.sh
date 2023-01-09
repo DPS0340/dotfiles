@@ -35,7 +35,7 @@ if test ! $(which brew); then
   fi
 fi
 
-brew install zsh zplug neovim tldr gh bat exa neofetch curl wget
+brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck
 
 gh auth login
 
