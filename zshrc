@@ -3,12 +3,11 @@ export XAUTHORITY=~/.Xauthority
 
 export ZSH="$HOME/.zplugin/plugins/robbyrussell---oh-my-zsh/"
 
-plugins=(
-  git
-  kubectl
-  kube-ps1
-  wakatime
-)
+zplug "plugins/git",   from:oh-my-zsh
+zplug "plugins/kubectl",   from:oh-my-zsh
+zplug "plugins/kube-ps1",   from:oh-my-zsh
+zplug "plugins/wakatime",   from:oh-my-zsh
+zplug "jeffreytse/zsh-vi-mode"
 
 # ZSH_THEME="powerline10k"
 

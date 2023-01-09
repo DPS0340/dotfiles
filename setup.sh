@@ -2,10 +2,10 @@
 
 rm ~/.vimrc
 rm ~/.zshrc
-rm -r ~/.config
-rm -r ~/.vim_runtime
+rm -rf ~/.config
+rm -rf ~/.vim_runtime
 
-DIR=$(PWD)
+DIR=$(pwd)
 
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
@@ -21,10 +21,6 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-brew install zsh neovim tldr gh
+brew install zsh neovim tldr gh zplug
 
 gh auth login
-
-chsh -s $(which zsh)
-
-source ~/.zshrc
