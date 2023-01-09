@@ -1,0 +1,6 @@
+[submodule "vim_runtime"]
+	path = vim_runtime
+	url = https://github.com/DPS0340/vimrc
+[submodule "zsh"]
+	path = zsh
+	url = https://github.com/DPS0340/BlaCk-Void-Zsh
