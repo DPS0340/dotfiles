@@ -3,6 +3,12 @@ export XAUTHORITY=~/.Xauthority
 
 export ZSH="$HOME/.zplugin/plugins/robbyrussell---oh-my-zsh/"
 
+if [ "$(uname)" = "Linux" ]; then
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+else
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
@@ -13,12 +19,6 @@ zplug "plugins/wakatime",   from:oh-my-zsh
 zplug "jeffreytse/zsh-vi-mode"
 
 zplug load --verbose
-
-if [ "$(uname)" = "Linux" ]; then
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-else
-    eval "$(/opt/homebrew/bin/brew shellenv)"
-fi
 
 # ZSH_THEME="powerline10k"
 
