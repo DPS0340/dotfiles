@@ -1,2 +1,2 @@
 config/gh/hosts.yml
-*.pyc
+**/__pycache__/**/*
