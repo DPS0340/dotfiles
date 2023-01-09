@@ -3,7 +3,6 @@
 rm ~/.vimrc
 rm ~/.zshrc
 rm ~/init-discord-rpc.sh
-sudo rm -rf /usr/share/nvm/init-nvm.sh
 rm -rf ~/.config
 rm -rf ~/.zsh
 rm -rf ~/.zprofile
@@ -19,8 +18,6 @@ ln -s $DIR/config ~/.config
 ln -s $DIR/zsh ~/.zsh
 ln -s $DIR/zprofile ~/.zprofile
 ln -s $DIR/zplugin ~/.zplugin
-sudo mkdir -p /usr/share/nvm
-sudo ln -s $DIR/init-nvm.sh /usr/share/nvm/init-nvm.sh
 ln -s $DIR/init-discord-rpc.sh ~/init-discord-rpc.sh
 
 # Original code from https://github.com/driesvints/dotfiles/blob/main/fresh.sh
@@ -38,9 +35,11 @@ if test ! $(which brew); then
   fi
 fi
 
-brew install zsh zplug neovim tldr gh bat exa neofetch
+brew install zsh zplug neovim tldr gh bat exa neofetch curl wget
 
 gh auth login
+
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 command -v zsh | sudo tee -a /etc/shells
 zsh
