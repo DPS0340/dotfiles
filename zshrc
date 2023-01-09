@@ -14,7 +14,7 @@ zplug "jeffreytse/zsh-vi-mode"
 
 zplug load --verbose
 
-if [ "$(uname)" -eq "Linux" ]; then
+if [ "$(uname)" = "Linux" ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 else
     eval "$(/opt/homebrew/bin/brew shellenv)"
