@@ -1,1 +1,2 @@
 config/gh/hosts.yml
+*.pyc
