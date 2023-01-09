@@ -22,5 +22,3 @@ if test ! $(which brew); then
 fi
 
 brew install zsh neovim tldr gh zplug
-
-gh auth login
