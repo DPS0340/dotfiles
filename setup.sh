@@ -21,4 +21,6 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-brew install zsh neovim tldr gh zplug
+brew install zsh neovim tldr gh
+
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
