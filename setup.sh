@@ -31,3 +31,6 @@ fi
 brew install zsh neovim tldr gh bat exa neofetch
 
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+
+gh auth login
+chsh $(which zsh)
