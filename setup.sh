@@ -6,6 +6,7 @@ rm ~/init-discord-rpc.sh
 rm -rf /usr/share/nvm/init-nvm.sh
 rm -rf ~/.config
 rm -rf ~/.zsh
+rm -rf ~/.zprofile
 rm -rf ~/.vim_runtime
 
 DIR=$(pwd)
@@ -15,6 +16,7 @@ ln -s $DIR/zshrc ~/.zshrc
 ln -s $DIR/vim_runtime ~/.vim_runtime
 ln -s $DIR/config ~/.config
 ln -s $DIR/zsh ~/.zsh
+ln -s $DIR/zprofile ~/.zprofile
 ln -s $DIR/init-nvm.sh /usr/share/nvm/init-nvm.sh
 ln -s $DIR/init-discord-rpc.sh ~/init-discord-rpc.sh
 
