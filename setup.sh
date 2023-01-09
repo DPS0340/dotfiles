@@ -2,6 +2,7 @@
 
 rm ~/.vimrc
 rm ~/.zshrc
+rm ~/init-discord-rpc.sh
 rm -rf ~/.config
 rm -rf ~/.vim_runtime
 
@@ -11,6 +12,7 @@ ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
 ln -s $DIR/vim_runtime ~/.vim_runtime
 ln -s $DIR/config ~/.config
+ln -s $DIR/init-discord-rpc.sh ~/init-discord-rpc.sh
 
 # Original code from https://github.com/driesvints/dotfiles/blob/main/fresh.sh
 # Check for Homebrew and install if we don't have it
@@ -21,6 +23,6 @@ if test ! $(which brew); then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-brew install zsh neovim tldr gh
+brew install zsh neovim tldr gh bat exa neofetch
 
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh

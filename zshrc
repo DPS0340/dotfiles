@@ -36,11 +36,12 @@ alias ll='exa -l -a'
 alias l='exa -l -a'
 
 alias nf='neofetch'
-alias clip='win32yank.exe -i'
-# alias clip='xclip -sel clip'
 
+
+if [ ! -z $WSL_ENABLE ]
+then
+alias clip='win32yank.exe -i'
 alias pwsh='powershell.exe'
-alias pacman='sudo powerpill'
 
 # Requires Pscx
 # https://github.com/Pscx/Pscx
@@ -50,17 +51,25 @@ neovideAlias='exec_neovide() {
  { sleep 2s ; powershell.exe Set-ForegroundWindow (Get-Process neovide)[-1].MainWindowHandle } &
 }; exec_neovide'
 
+alias open='explorer.exe'
+
+else
+alias clip='xclip -sel clip'
+neovideAlias='neovide'   
+
+fi
+
 alias neovide=$neovideAlias
 alias nvd=$neovideAlias
 alias nv=$neovideAlias
 alias gvim=$neovideAlias
 
+alias pacman='sudo powerpill'
+
 unset neovideAlias
 
 alias cl='clear'
 alias td='tldr'
-
-alias open='explorer.exe'
 
 alias gcomp='g++ -O3 -Ofast -funroll-loops -msse -msse2 -msse3 -mssse3 -msse4 -mavx -mavx2 -std=c++17'
 
