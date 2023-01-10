@@ -98,8 +98,8 @@ man() {
     command man "$@"
 }
 
-export PAGER=nvimpager
-export MANPAGER=nvimpager
+# export PAGER=nvimpager
+# export MANPAGER=nvimpager
 
 bindkey '^H' backward-kill-word
 bindkey '^[^?' backward-kill-word
@@ -116,3 +116,7 @@ autoload -Uz compinit
 compinit
 
 source <(kubectl completion zsh)
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
