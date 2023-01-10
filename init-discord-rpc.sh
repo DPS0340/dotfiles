@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Wsl2 only
+
 set -x
 
 pkill socat
