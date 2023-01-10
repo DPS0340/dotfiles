@@ -101,6 +101,8 @@ man() {
 # export PAGER=nvimpager
 # export MANPAGER=nvimpager
 
+bindkey -e
+
 bindkey '^H' backward-kill-word
 bindkey '^[^?' backward-kill-word
 
@@ -108,6 +110,9 @@ bindkey "^A" vi-beginning-of-line
 bindkey "^E" vi-end-of-line
 
 bindkey '^[[Z' reverse-menu-complete
+
+bindkey '[C' forward-word
+bindkey '[D' backward-word
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
