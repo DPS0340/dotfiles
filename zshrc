@@ -36,7 +36,6 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 source $ZSH/oh-my-zsh.sh
 
-source $HOME/.zsh/BlaCk-Void.zshrc
 
 alias rr='source ~/.zshrc'
 alias gpom='git push origin main'
@@ -127,3 +126,5 @@ source <(kubectl completion zsh)
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+source $HOME/.zsh/BlaCk-Void.zshrc
