@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<migrationMap>
+  <name value="Java EE to Jakarta EE" />
+  <order value="100"/>
+
+  <entry oldName="javax.annotation.Generated" newName="jakarta.annotation.Generated" type="class" />
+  <entry oldName="javax.annotation.ManagedBean" newName="jakarta.annotation.ManagedBean" type="class" />
+  <entry oldName="javax.annotation.PostConstruct" newName="jakarta.annotation.PostConstruct" type="class" />
+  <entry oldName="javax.annotation.PreDestroy" newName="jakarta.annotation.PreDestroy" type="class" />
+  <entry oldName="javax.annotation.Priority" newName="jakarta.annotation.Priority" type="class" />
+  <entry oldName="javax.annotation.Resource" newName="jakarta.annotation.Resource" type="class" />
+  <entry oldName="javax.annotation.Resource.AuthenticationType" newName="jakarta.annotation.Resource.AuthenticationType" type="class" />
+  <entry oldName="javax.annotation.Resources" newName="jakarta.annotation.Resources" type="class" />
+  <entry oldName="javax.annotation.sql.DataSourceDefinition" newName="jakarta.annotation.sql.DataSourceDefinition" type="class" />
+  <entry oldName="javax.annotation.sql.DataSourceDefinitions" newName="jakarta.annotation.sql.DataSourceDefinitions" type="class" />
+  <entry oldName="javax.annotation.security.DeclareRoles" newName="jakarta.annotation.security.DeclareRoles" type="class" />
+  <entry oldName="javax.annotation.security.DenyAll" newName="jakarta.annotation.security.DenyAll" type="class" />
+  <entry oldName="javax.annotation.security.PermitAll" newName="jakarta.annotation.security.PermitAll" type="class" />
+  <entry oldName="javax.annotation.security.RolesAllowed" newName="jakarta.annotation.security.RolesAllowed" type="class" />
+  <entry oldName="javax.annotation.security.RunAs" newName="jakarta.annotation.security.RunAs" type="class" />
+
+  <entry oldName="javax.ejb" newName="jakarta.ejb" type="package" recursive="true" />
+  <entry oldName="javax.el" newName="jakarta.el" type="package" recursive="true" />
+  <entry oldName="javax.mail" newName="jakarta.mail" type="package" recursive="true" />
+  <entry oldName="javax.persistence" newName="jakarta.persistence" type="package" recursive="true" />
+  <entry oldName="javax.security.auth.message" newName="jakarta.security.auth.message" type="package" recursive="true" />
+  <entry oldName="javax.servlet" newName="jakarta.servlet" type="package" recursive="true" />
+  <entry oldName="javax.transaction" newName="jakarta.transaction" type="package" recursive="false" />
+  <entry oldName="javax.websocket" newName="jakarta.websocket" type="package" recursive="true" />
+
+  <entry oldName="javax.activation" newName="jakarta.activation" type="package" recursive="true" />
+  <entry oldName="javax.batch" newName="jakarta.batch" type="package" recursive="true" />
+  <entry oldName="javax.decorator" newName="jakarta.decorator" type="package" recursive="true" />
+  <entry oldName="javax.enterprise" newName="jakarta.enterprise" type="package" recursive="true" />
+  <entry oldName="javax.faces" newName="jakarta.faces" type="package" recursive="true" />
+  <entry oldName="javax.jms" newName="jakarta.jms" type="package" recursive="true" />
+  <entry oldName="javax.json" newName="jakarta.json" type="package" recursive="true" />
+  <entry oldName="javax.jws" newName="jakarta.jws" type="package" recursive="true" />
+  <entry oldName="javax.interceptor" newName="jakarta.interceptor" type="package" recursive="true" />
+  <entry oldName="javax.inject" newName="jakarta.inject" type="package" recursive="true" />
+  <entry oldName="javax.management.j2ee" newName="jakarta.management.j2ee" type="package" recursive="true" />
+  <entry oldName="javax.resource" newName="jakarta.resource" type="package" recursive="true" />
+  <entry oldName="javax.security.auth.enterprise" newName="jakarta.security.auth.enterprise" type="package" recursive="true" />
+  <entry oldName="javax.security.auth.jacc" newName="jakarta.security.auth.jacc" type="package" recursive="true" />
+  <entry oldName="javax.validation" newName="jakarta.validation" type="package" recursive="true" />
+  <entry oldName="javax.ws.rs" newName="jakarta.ws.rs" type="package" recursive="true" />
+  <entry oldName="javax.xml.bind" newName="jakarta.xml.bind" type="package" recursive="true" />
+  <entry oldName="javax.xml.soap" newName="jakarta.xml.soap" type="package" recursive="true" />
+  <entry oldName="javax.xml.ws" newName="jakarta.xml.ws" type="package" recursive="true" />
+</migrationMap>
