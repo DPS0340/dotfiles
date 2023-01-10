@@ -38,6 +38,16 @@ if test ! $(which brew); then
 fi
 
 brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck nodejs
+brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
+
+curl -s "https://get.sdkman.io" | bash
+
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+sdk install java 17.0.5-amzn
+sdk install gradle 7.6
+
 
 command -v zsh | sudo tee -a /etc/shells
 zsh
