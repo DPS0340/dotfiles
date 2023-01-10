@@ -34,7 +34,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-source /home/dps0340/.zsh/BlaCk-Void.zshrc
+source $HOME/.zsh/BlaCk-Void.zshrc
 
 alias rr='source ~/.zshrc'
 alias gpom='git push origin main'
