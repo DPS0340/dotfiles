@@ -19,15 +19,18 @@ fi
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
-zplug "plugins/git",   from:oh-my-zsh
-zplug "plugins/kubectl",   from:oh-my-zsh
-zplug "plugins/kube-ps1",   from:oh-my-zsh
-zplug "plugins/wakatime",   from:oh-my-zsh
+zplug "romkatv/powerlevel10k", as:theme, depth:1
 zplug "jeffreytse/zsh-vi-mode"
 
 zplug load --verbose
+zplug install
 
-# ZSH_THEME="powerline10k"
+plugins=(
+  git
+  kubectl
+  kube-ps1
+  wakatime
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,9 +90,9 @@ alias gcomp='g++ -O3 -Ofast -funroll-loops -msse -msse2 -msse3 -mssse3 -msse4 -m
 
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
-	LESS_TERMCAP_me=$'\e[0m' \
-	LESS_TERMCAP_se=$'\e[0m' \
-	LESS_TERMCAP_so=$'\e[01;44;33m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;33m' \
     LESS_TERMCAP_ue=$'\e[0m' \
     LESS_TERMCAP_us=$'\e[01;32m' \
     command man "$@"
@@ -108,3 +111,8 @@ bindkey '^[[Z' reverse-menu-complete
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+autoload -Uz compinit
+compinit
+
+source <(kubectl completion zsh)
