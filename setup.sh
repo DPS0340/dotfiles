@@ -48,6 +48,8 @@ export SDKMAN_DIR="$HOME/.sdkman"
 sdk install java 17.0.5-amzn
 sdk install gradle 7.6
 
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 command -v zsh | sudo tee -a /etc/shells
 zsh
