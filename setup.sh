@@ -3,6 +3,7 @@
 rm ~/.vimrc
 rm ~/.zshrc
 rm ~/init-discord-rpc.sh
+rm ~/.p10k.zsh
 rm -rf ~/.config
 rm -rf ~/.zsh
 rm -rf ~/.zprofile
@@ -19,6 +20,7 @@ ln -s $DIR/zsh ~/.zsh
 ln -s $DIR/zprofile ~/.zprofile
 ln -s $DIR/zplugin ~/.zplugin
 ln -s $DIR/init-discord-rpc.sh ~/init-discord-rpc.sh
+ln -s $DIR/p10k.zsh ~/.p10k.zsh
 
 # Original code from https://github.com/driesvints/dotfiles/blob/main/fresh.sh
 # Check for Homebrew and install if we don't have it
@@ -35,11 +37,7 @@ if test ! $(which brew); then
   fi
 fi
 
-brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck
-
-gh auth login
-
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck nodejs
 
 command -v zsh | sudo tee -a /etc/shells
 zsh
