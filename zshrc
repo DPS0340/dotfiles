@@ -32,6 +32,8 @@ plugins=(
   wakatime
 )
 
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
 source $ZSH/oh-my-zsh.sh
 
 source $HOME/.zsh/BlaCk-Void.zshrc
