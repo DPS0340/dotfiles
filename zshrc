@@ -94,6 +94,8 @@ alias c++='g++-12'
 alias gcc='gcc-12'
 alias cc='gcc-12'
 
+alias dq='xattr -r -d com.apple.quarantine'
+
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
     LESS_TERMCAP_me=$'\e[0m' \
