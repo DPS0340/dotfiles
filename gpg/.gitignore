@@ -1,0 +1,11 @@
+*
+*.*
+!.gitignore
+!decrypted
+!decrypted/.gitkeep
+!encrypted
+!encrypted/.gitkeep
+!dps0340.asc
+!encrypted/*.gpg
+!decrypt-all.sh
+!encrypt-all.sh
