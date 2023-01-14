@@ -89,6 +89,11 @@ alias td='tldr'
 
 alias gcomp='g++ -O3 -Ofast -funroll-loops -msse -msse2 -msse3 -mssse3 -msse4 -mavx -mavx2 -std=c++17'
 
+alias g++='g++-12'
+alias c++='g++-12'
+alias gcc='gcc-12'
+alias cc='gcc-12'
+
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
     LESS_TERMCAP_me=$'\e[0m' \
