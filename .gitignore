@@ -1,7 +1,2 @@
-config/gh/hosts.yml
 **/__pycache__
-config/configstore
-config/gcloud
-config/tool_state
-
 .DS_Store
