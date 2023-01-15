@@ -96,6 +96,9 @@ alias cc='gcc-12'
 
 alias dq='xattr -r -d com.apple.quarantine'
 
+# alias python='python3'
+# alias pip='pip3'
+
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
     LESS_TERMCAP_me=$'\e[0m' \
@@ -135,3 +138,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 source $HOME/.zsh/BlaCk-Void.zshrc
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
