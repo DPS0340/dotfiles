@@ -36,7 +36,6 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 source $ZSH/oh-my-zsh.sh
 
-
 alias rr='source ~/.zshrc'
 
 alias glom='git pull origin main'
@@ -102,9 +101,6 @@ alias gcc='gcc-12'
 alias cc='gcc-12'
 
 alias dq='xattr -r -d com.apple.quarantine'
-
-# alias python='python3'
-# alias pip='pip3'
 
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
