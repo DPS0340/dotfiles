@@ -38,8 +38,15 @@ source $ZSH/oh-my-zsh.sh
 
 
 alias rr='source ~/.zshrc'
+
+alias glom='git pull origin main'
+alias glmm='git pull mine main'
+alias glm='git pull mine'
+
 alias gpom='git push origin main'
 alias gpmm='git push mine main'
+alias gpo='git push origin'
+alias gpm='git push mine'
 
 alias v='nvim'
 alias vi='nvim'
