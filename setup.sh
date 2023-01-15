@@ -37,7 +37,7 @@ if test ! $(which brew); then
   fi
 fi
 
-brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck nodejs gcc fzf gpg
+brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck nodejs gcc fzf gpg pyenv
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 curl -s "https://get.sdkman.io" | bash
@@ -47,6 +47,9 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 sdk install java 17.0.5-amzn
 sdk install gradle 7.6
+
+pyenv install 3.10.9
+pyenv global 3.10.9
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
