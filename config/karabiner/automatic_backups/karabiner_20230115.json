@@ -18,33 +18,10 @@
         },
         "rules": [
           {
-            "description": "Esc to ABC",
-            "manipulators": [
-              {
-                "type": "basic",
-                "from": {
-                  "key_code": "escape"
-                },
-                "to_if_alone": [
-                  {
-                    "key_code": "escape"
-                  }
-                ],
-                "to_after_key_up": [
-                  {
-                    "select_input_source": {
-                      "input_source_id": "com.apple.keylayout.ABC",
-                      "language": "en"
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "description": "Change fn + W/A/S/D to Arrow Keys",
             "manipulators": [
               {
+                "type": "basic",
                 "from": {
                   "key_code": "w",
                   "modifiers": {
@@ -56,10 +33,10 @@
                   {
                     "key_code": "up_arrow"
                   }
-                ],
-                "type": "basic"
+                ]
               },
               {
+                "type": "basic",
                 "from": {
                   "key_code": "a",
                   "modifiers": {
@@ -71,10 +48,10 @@
                   {
                     "key_code": "left_arrow"
                   }
-                ],
-                "type": "basic"
+                ]
               },
               {
+                "type": "basic",
                 "from": {
                   "key_code": "s",
                   "modifiers": {
@@ -86,10 +63,10 @@
                   {
                     "key_code": "down_arrow"
                   }
-                ],
-                "type": "basic"
+                ]
               },
               {
+                "type": "basic",
                 "from": {
                   "key_code": "d",
                   "modifiers": {
@@ -101,8 +78,7 @@
                   {
                     "key_code": "right_arrow"
                   }
-                ],
-                "type": "basic"
+                ]
               }
             ]
           }
@@ -218,7 +194,7 @@
           "treat_as_built_in_keyboard": false
         },
         {
-          "disable_built_in_keyboard_if_exists": true,
+          "disable_built_in_keyboard_if_exists": false,
           "fn_function_keys": [],
           "identifiers": {
             "is_keyboard": true,
