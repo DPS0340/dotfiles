@@ -145,3 +145,8 @@ source $HOME/.zsh/BlaCk-Void.zshrc
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+if [ "$(uname)" == "Darwin" ]; then
+  # Use finder, not xdg-open
+  unalias open
+fi
