@@ -52,7 +52,7 @@ alias vi='nvim'
 alias vim='nvim'
 alias vv='nvim .'
 
-alias cat='bat'
+# alias cat='bat'
 alias b='bat'
 
 alias ls='exa'
