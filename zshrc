@@ -160,3 +160,4 @@ if [ "$(uname)" == "Darwin" ]; then
 fi
 
 git config --global init.defaultBranch main
+set -o vi
