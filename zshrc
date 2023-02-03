@@ -154,3 +154,5 @@ if [ "$(uname)" == "Darwin" ]; then
   # Use finder, not xdg-open
   unalias open
 fi
+
+git config --global init.defaultBranch main
