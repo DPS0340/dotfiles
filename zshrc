@@ -40,10 +40,14 @@ alias rr='source ~/.zshrc'
 
 alias glom='git pull origin main'
 alias glmm='git pull mine main'
-alias glm='git pull mine'
+alias glod='git pull origin dev'
+alias glmd='git pull mine dev'
+alias gllo='git pull origin'
 
 alias gpom='git push origin main'
 alias gpmm='git push mine main'
+alias gpod='git push origin dev'
+alias gpmd='git push mine dev'
 alias gpo='git push origin'
 alias gpm='git push mine'
 
