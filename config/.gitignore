@@ -1,4 +1,7 @@
-gh/hosts.yml
-store
-gcloud
-tool_state
+*
+!coc
+!gh
+!karabiner
+!nvim
+!thefuck
+!yay
