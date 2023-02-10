@@ -159,5 +159,6 @@ if [ "$(uname)" == "Darwin" ]; then
   unalias open
 fi
 
+git config --global core.editor "nvim"
 git config --global init.defaultBranch main
 set -o vi
