@@ -6,6 +6,7 @@ rm ~/init-discord-rpc.sh
 rm ~/.p10k.zsh
 rm -rf ~/.config
 rm -rf ~/.zsh
+rm -rf ~/.xprofile
 rm -rf ~/.zprofile
 rm -rf ~/.zplugin
 rm -rf ~/.vim_runtime
@@ -17,6 +18,7 @@ ln -s $DIR/zshrc ~/.zshrc
 ln -s $DIR/vim_runtime ~/.vim_runtime
 ln -s $DIR/config ~/.config
 ln -s $DIR/zsh ~/.zsh
+ln -s $DIR/xprofile ~/.xprofile
 ln -s $DIR/zprofile ~/.zprofile
 ln -s $DIR/zplugin ~/.zplugin
 ln -s $DIR/init-discord-rpc.sh ~/init-discord-rpc.sh
