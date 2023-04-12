@@ -161,4 +161,7 @@ fi
 
 git config --global core.editor "nvim"
 git config --global init.defaultBranch main
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/share/pkgconfig
+
 set -o vi
