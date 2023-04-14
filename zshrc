@@ -163,5 +163,11 @@ git config --global core.editor "nvim"
 git config --global init.defaultBranch main
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/share/pkgconfig
+export PATH="~/.cargo/bin:$PATH"
+
+alias s='sudo'
 
 set -o vi
+
+# To customize prompt, run `p10k configure` or edit ~/dotfiles/p10k.zsh.
+[[ ! -f ~/dotfiles/p10k.zsh ]] || source ~/dotfiles/p10k.zsh
