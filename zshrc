@@ -166,6 +166,7 @@ git config --global user.email "optonal.int@kakao.com"
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/share/pkgconfig
 export PATH="~/.cargo/bin:$PATH"
+export PATH="~/go/bin:$PATH"
 
 unalias s
 alias s='sudo'
