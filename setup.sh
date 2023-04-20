@@ -39,9 +39,11 @@ if test ! $(which brew); then
   fi
 fi
 
-brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck nodejs gcc fzf gpg pyenv go kubectl rclone
+brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck nodejs gcc fzf gpg pyenv go kubectl
 brew install --cask orbstack
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
+
+sudo -v ; curl https://rclone.org/install.sh | sudo bash
 
 curl -s "https://get.sdkman.io" | bash
 
