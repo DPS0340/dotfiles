@@ -1,7 +1,16 @@
 *
 !coc
+!coc/*
+!coc/**/*
 !gh
+!gh/*
+!gh/**/*
 !karabiner
+!karabiner/*
+!karabiner/**/*
 !nvim
+!nvim/*
+!nvim/**/*
 !thefuck
-!yay
+!thefuck/*
+!thefuck/**/*
