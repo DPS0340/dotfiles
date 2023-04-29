@@ -2,7 +2,6 @@
 
 rm ~/.vimrc
 rm ~/.zshrc
-rm ~/init-discord-rpc.sh
 rm ~/.p10k.zsh
 rm -rf ~/.config
 rm -rf ~/.zsh
@@ -21,7 +20,6 @@ ln -s $DIR/zsh ~/.zsh
 ln -s $DIR/xprofile ~/.xprofile
 ln -s $DIR/zprofile ~/.zprofile
 ln -s $DIR/zplugin ~/.zplugin
-ln -s $DIR/init-discord-rpc.sh ~/init-discord-rpc.sh
 ln -s $DIR/p10k.zsh ~/.p10k.zsh
 
 # Original code from https://github.com/driesvints/dotfiles/blob/main/fresh.sh

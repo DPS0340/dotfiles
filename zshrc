@@ -5,7 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-export DISPLAY=':0.0'
+# export DISPLAY=':0.0'
 export XAUTHORITY=~/.Xauthority
 
 export ZSH="$HOME/.zplugin/plugins/robbyrussell---oh-my-zsh/"
@@ -175,3 +175,4 @@ set -o vi
 
 # To customize prompt, run `p10k configure` or edit ~/dotfiles/p10k.zsh.
 [[ ! -f ~/dotfiles/p10k.zsh ]] || source ~/dotfiles/p10k.zsh
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
