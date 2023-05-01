@@ -14,3 +14,4 @@
 !thefuck
 !thefuck/*
 !thefuck/**/*
+**/__pycache__

@@ -1,4 +1,4 @@
-if [ "$(uname)" == "Linux" ]; then
+if [ "$(uname)" = "Linux" ]; then
 	~/dotfiles/rclone.sh
 fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
