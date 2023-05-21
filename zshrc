@@ -97,6 +97,8 @@ unset neovideAlias
 alias cl='clear'
 alias td='tldr'
 
+alias sl='ls'
+
 alias gcomp='g++ -O3 -Ofast -funroll-loops -msse -msse2 -msse3 -mssse3 -msse4 -mavx -mavx2 -std=c++17'
 
 alias g++='g++-12'
