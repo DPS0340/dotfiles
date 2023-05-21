@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "coc-json": ">=1.8.0"
+    "coc-json": ">=1.8.0",
+    "coc-rust-analyzer": ">=0.72.1",
+    "coc-yaml": ">=1.9.0"
   }
 }
