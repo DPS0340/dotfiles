@@ -65,6 +65,8 @@ alias l='exa -l -a'
 
 alias nf='neofetch'
 
+alias cx='chmod +x'
+
 # Wsl specific settings
 if [ ! -z $WSL_ENABLE ]; then
     alias clip='win32yank.exe -i'
@@ -173,8 +175,10 @@ export PATH="$HOME/go/bin:$PATH"
 unalias s
 alias s='sudo'
 
-set -o vi
 
 # To customize prompt, run `p10k configure` or edit ~/dotfiles/p10k.zsh.
 [[ ! -f ~/dotfiles/p10k.zsh ]] || source ~/dotfiles/p10k.zsh
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# set -o vi
+bindkey -v
