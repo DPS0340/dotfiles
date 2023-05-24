@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Enable debug output
+PS4="\n\033[1;33m>>\033[0m "; set -x
+
+LOCATION=$(realpath "$0")
+DIR=$(dirname "$LOCATION")
+
+# Cache sudo credential
+sudo -v
+
 rm ~/.vimrc
 rm ~/.zshrc
 rm ~/.p10k.zsh
