@@ -66,6 +66,8 @@ alias l='exa -l -a'
 alias nf='neofetch'
 
 alias cx='chmod +x'
+alias s='sudo'
+alias '$'=''
 
 # Wsl specific settings
 if [ ! -z $WSL_ENABLE ]; then
@@ -153,6 +155,10 @@ export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 source $HOME/.zsh/BlaCk-Void.zshrc
+
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+  source '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
 
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
