@@ -1,4 +1,4 @@
-with import <nixpkgs>{};
+with import <nixpkgs> {};
 [
 	iterm2
 	karabiner-elements 
