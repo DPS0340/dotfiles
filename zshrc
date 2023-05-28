@@ -59,10 +59,6 @@ alias vv='nvim .'
 # alias cat='bat'
 alias b='bat'
 
-alias ls='exa'
-alias ll='exa -l -a'
-alias l='exa -l -a'
-
 alias nf='neofetch'
 
 alias cx='chmod +x'
@@ -188,3 +184,8 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # set -o vi
 bindkey -v
+
+alias ls='exa -alh'
+alias ll='exa -alh'
+alias l='exa -alh'
+
