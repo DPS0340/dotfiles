@@ -46,11 +46,13 @@ if test ! $(which brew); then
   fi
 fi
 
-brew install zsh zplug neovim tldr gh bat exa neofetch curl wget thefuck nodejs gcc fzf gpg pyenv go kubectl
 brew install --cask orbstack macfuse onedrive
-brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
-sudo -v ; curl https://rclone.org/install.sh | sudo bash
+if test ! $(which nix-env); then
+    sh <(curl -L https://nixos.org/nix/install) --daemon
+fi
+
+$DIR/install-packages.sh
 
 curl -s "https://get.sdkman.io" | bash
 
