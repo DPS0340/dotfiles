@@ -19,8 +19,6 @@ rm -rf ~/.zprofile
 rm -rf ~/.zplugin
 rm -rf ~/.vim_runtime
 
-DIR=$(pwd)
-
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
 ln -s $DIR/vim_runtime ~/.vim_runtime
