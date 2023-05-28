@@ -11,4 +11,6 @@ sudo -v
 
 chsh -s $(which zsh)
 
+nvim +'PlugInstall --sync' +qa
+
 gh auth login
