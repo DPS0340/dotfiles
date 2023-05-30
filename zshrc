@@ -189,3 +189,4 @@ alias ls='exa -alh'
 alias ll='exa -alh'
 alias l='exa -alh'
 
+tmux new

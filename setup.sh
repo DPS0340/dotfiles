@@ -18,6 +18,8 @@ rm -rf ~/.xprofile
 rm -rf ~/.zprofile
 rm -rf ~/.zplugin
 rm -rf ~/.vim_runtime
+rm -rf ~/.tmux
+rm -rf ~/.tmux.conf
 
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
@@ -28,6 +30,8 @@ ln -s $DIR/xprofile ~/.xprofile
 ln -s $DIR/zprofile ~/.zprofile
 ln -s $DIR/zplugin ~/.zplugin
 ln -s $DIR/p10k.zsh ~/.p10k.zsh
+ln -s $DIR/tmux ~/.tmux
+ln -s $DIR/tmux.conf ~/.tmux.conf
 
 # Original code from https://github.com/driesvints/dotfiles/blob/main/fresh.sh
 # Check for Homebrew and install if we don't have it
