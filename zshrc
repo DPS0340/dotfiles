@@ -189,4 +189,9 @@ alias ls='exa -alh'
 alias ll='exa -alh'
 alias l='exa -alh'
 
+export TERM=xterm-256color
+export EDITOR="nvim"
+export K9S_EDITOR="nvim"
+
+
 tmux new
