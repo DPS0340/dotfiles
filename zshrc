@@ -66,7 +66,7 @@ alias grh='git reset --hard'
 
 alias gmc='git merge --continue'
 
-alias gcob='git checkout -'
+alias gcob='git checkout -b'
 
 alias v='nvim'
 alias vi='nvim'
