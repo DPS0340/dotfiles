@@ -1,9 +1,13 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+
+# autoload -Uz zsh-newuser-install && zsh-newuser-install -f
+# autoload -Uz compinstall && compinstall
+autoload -Uz compinit && compinit
+
 
 # export DISPLAY=':0.0'
 export XAUTHORITY=~/.Xauthority
@@ -51,6 +55,19 @@ alias gpmd='git push mine dev'
 alias gpo='git push origin'
 alias gpm='git push mine'
 
+alias gck='git checkout'
+alias gckb='git checkout -b'
+
+alias gmv='git mv'
+alias gr='git reset'
+alias grs='git reset --soft'
+alias grm='git reset --mixed'
+alias grh='git reset --hard'
+
+alias gmc='git merge --continue'
+
+alias gcob='git checkout -'
+
 alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
@@ -97,8 +114,6 @@ unset neovideAlias
 alias cl='clear'
 alias td='tldr'
 
-alias sl='ls'
-
 alias gcomp='g++ -O3 -Ofast -funroll-loops -msse -msse2 -msse3 -mssse3 -msse4 -mavx -mavx2 -std=c++17'
 
 alias g++='g++-12'
@@ -137,9 +152,6 @@ bindkey '[D' backward-word
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-autoload -Uz compinit
-compinit
-
 source <(kubectl completion zsh)
 
 autoload -Uz bracketed-paste-magic
@@ -166,6 +178,8 @@ if [ "$(uname)" == "Darwin" ]; then
 fi
 
 git config --global core.editor "nvim"
+# git config --global core.pager "more"
+git config --global color.pager true
 git config --global init.defaultBranch main
 git config --global user.name "Jiho Lee"
 git config --global user.email "optional.int@kakao.com"
@@ -189,9 +203,18 @@ alias ls='exa -alh'
 alias ll='exa -alh'
 alias l='exa -alh'
 
+alias sl='exa -alh'
+unalias s
+alias s='exa -alh'
+
 export TERM=xterm-256color
 export EDITOR="nvim"
 export K9S_EDITOR="nvim"
 
 
-tmux new
+# autoload -Uz zsh-newuser-install && zsh-newuser-install -f
+
+if [ -z "$TMUX" ]
+then
+    tmux attach -t TMUX || tmux new -s TMUX
+fi
