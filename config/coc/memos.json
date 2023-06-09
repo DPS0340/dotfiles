@@ -40,6 +40,16 @@
         "etag": "\"80e08ca9849bd81:0\"",
         "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
         "updateTime": 1685433822901
+      },
+      "https://json.schemastore.org/lerna.json": {
+        "etag": "\"802ce8fe316ad81:0\"",
+        "fileName": "20bddeb2250ae5e6ef0664f80bf0f03b.schema.json",
+        "updateTime": 1686117198915
+      },
+      "https://json.schemastore.org/tsconfig.json": {
+        "etag": "\"80f8c2f6f88d91:0\"",
+        "fileName": "a28507e42e8bfd5fba830538461d5db3.schema.json",
+        "updateTime": 1686117213438
       }
     }
   }
