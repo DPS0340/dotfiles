@@ -64,6 +64,11 @@ alias grs='git reset --soft'
 alias grm='git reset --mixed'
 alias grh='git reset --hard'
 
+function grsa () {
+	git restore --staged $1
+	git restore $1
+}
+
 alias gmc='git merge --continue'
 
 alias gcob='git checkout -b'
@@ -72,6 +77,8 @@ alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
 alias vv='nvim .'
+
+alias hh='history'
 
 # alias cat='bat'
 alias b='bat'
@@ -180,9 +187,11 @@ fi
 git config --global core.editor "nvim"
 # git config --global core.pager "more"
 git config --global color.pager true
+git config --global --replace-all core.pager "less -F -X"
 git config --global init.defaultBranch main
 git config --global user.name "Jiho Lee"
 git config --global user.email "optional.int@kakao.com"
+
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/share/pkgconfig
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -204,17 +213,11 @@ alias ll='exa -alh'
 alias l='exa -alh'
 
 alias sl='exa -alh'
-unalias s
-alias s='exa -alh'
 
 export TERM=xterm-256color
 export EDITOR="nvim"
 export K9S_EDITOR="nvim"
 
-
 # autoload -Uz zsh-newuser-install && zsh-newuser-install -f
 
-if [ -z "$TMUX" ]
-then
-    tmux attach -t TMUX || tmux new -s TMUX
-fi
+tmux new
