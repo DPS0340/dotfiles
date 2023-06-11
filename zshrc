@@ -205,8 +205,8 @@ alias s='sudo'
 [[ ! -f ~/dotfiles/p10k.zsh ]] || source ~/dotfiles/p10k.zsh
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# set -o vi
-bindkey -v
+set -o vi
+# bindkey -v
 
 alias ls='exa -alh'
 alias ll='exa -alh'
