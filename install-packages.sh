@@ -11,3 +11,7 @@ nix-env -i -f packages.nix
 if [ "$(uname)" == "Darwin" ]; then
 	nix-env -i -f darwin-packages.nix
 fi
+
+if [ "$(uname)" == "Linux" ]; then
+	nix-env -i -f linux-packages.nix
+fi

@@ -220,4 +220,4 @@ export K9S_EDITOR="nvim"
 
 # autoload -Uz zsh-newuser-install && zsh-newuser-install -f
 
-tmux new
+tmux
