@@ -7,39 +7,39 @@
         "updateTime": 1675772390553
       },
       "https://json.schemastore.org/package.json": {
-        "etag": "\"092b9eba35dd91:0\"",
+        "etag": "\"0cbc4ae1193d91:0\"",
         "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
-        "updateTime": 1685433822345
+        "updateTime": 1687229575279
       },
       "https://json.schemastore.org/ava.json": {
         "etag": "\"80cdbd40989d91:0\"",
         "fileName": "635f57185b22bce9d3a56c68f5da4ad7.schema.json",
-        "updateTime": 1685433822896
+        "updateTime": 1687229575902
       },
       "https://json.schemastore.org/jscpd.json": {
         "etag": "\"80bec5ba1984d81:0\"",
         "fileName": "22bfc1ab1ff56aae62322f6ce45dab5a.schema.json",
-        "updateTime": 1685433822905
+        "updateTime": 1687229575894
       },
       "https://json.schemastore.org/semantic-release.json": {
         "etag": "\"808cdec3a9a4d81:0\"",
         "fileName": "fbc95702ba6eddb3e2de4f52e31ca82a.schema.json",
-        "updateTime": 1685433822897
+        "updateTime": 1687229575882
       },
       "https://json.schemastore.org/eslintrc.json": {
         "etag": "\"09c10cf5f2bd91:0\"",
         "fileName": "c5064f140d4cfdbf4d6fbe68f68abbb1.schema.json",
-        "updateTime": 1685433822900
+        "updateTime": 1687229575900
       },
       "https://json.schemastore.org/stylelintrc.json": {
-        "etag": "\"80e08ca9849bd81:0\"",
+        "etag": "\"0fb2abcd297d91:0\"",
         "fileName": "000bfbdd14d2fb8ec5b0d59bec32ef98.schema.json",
-        "updateTime": 1685433822898
+        "updateTime": 1687229575898
       },
       "https://json.schemastore.org/prettierrc.json": {
         "etag": "\"80e08ca9849bd81:0\"",
         "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
-        "updateTime": 1685433822901
+        "updateTime": 1687229575948
       },
       "https://json.schemastore.org/lerna.json": {
         "etag": "\"802ce8fe316ad81:0\"",
@@ -51,6 +51,1839 @@
         "fileName": "a28507e42e8bfd5fba830538461d5db3.schema.json",
         "updateTime": 1686117213438
       }
+    }
+  },
+  "coc-python|/Users/lee/programming/mondrianai/yennefer-cluster-deployments": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:17cf83c2c3fc7449224109447c1800e6": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:17cf83c2c3fc7449224109447c1800e6": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lee/programming/mondrianai/yennefer-cluster-deployments": {
+      "architecture": 3,
+      "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.9-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.9-final"
+      },
+      "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+      "fileHash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc",
+      "type": "Unknown"
+    }
+  },
+  "coc-python|global": {
+    "/Users/lee/.nix-profile/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.nix-profile/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.11-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.11-final"
+        },
+        "sysPrefix": "/nix/store/xmxc0xc03fqq8b19sxfxwyd8k71kaz5m-python3-3.10.11",
+        "fileHash": "a18477bc5c831e81ceb8efb23ba8731c0a138cb1815c114df8a6e55cf2392232cba7ae13552b40270109ec9367cbbb163629e8b2542f0086818c34d9b1760ec3"
+      },
+      "expiry": 1686728970106
+    },
+    "/Users/lee/.nix-profile/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.nix-profile/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.11-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.11-final"
+        },
+        "sysPrefix": "/nix/store/xmxc0xc03fqq8b19sxfxwyd8k71kaz5m-python3-3.10.11",
+        "fileHash": "a78c2c4aac06b260fbfdbf2e43c6b75f03183567a58417979359b498566d540574d04447955b3071d5460d708a446d9b47597d180b0f8a560f9594de4dcbbbdf"
+      },
+      "expiry": 1686728970110
+    },
+    "/Users/lee/.nix-profile/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.nix-profile/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.11-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.11-final"
+        },
+        "sysPrefix": "/nix/store/xmxc0xc03fqq8b19sxfxwyd8k71kaz5m-python3-3.10.11",
+        "fileHash": "2c05404540ffcd07c310ecb8a88b028dc12182be170a469bfe3ee29a64d3e6aed10c5377586609cc862a4086e7976040163b46f741f01cd48ac66270b240083b"
+      },
+      "expiry": 1686728970111
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "ae6134e762003b5d938990e003d94578de64f5b7513a6509e3d54df3ab2638b5c05c90749342ac2a0c29d17012f4dbf19e40154b3f7512b9838f9ba30d475473"
+      },
+      "expiry": 1686728970134
+    },
+    "/opt/homebrew/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.3-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.3-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+        "fileHash": "d23eaf715cf6db24395c5d0681b666e66d48cb7b4d3eada3ccdfacdb2d1b3f15646634e005966d7fd07064a9666c0df50cf7bb55eb74ee837dbfdd271f3b9abe"
+      },
+      "expiry": 1686728970158
+    },
+    "/opt/homebrew/bin/python3.11.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.11",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.3-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.3-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+        "fileHash": "55439e6b7b4126ad05b6ec3448f79894473308f004adc6bbd7c20fb51897640c0eebbd9785115fcda66072bbc24e51441662728bc09c30abca3dd96ae0e1912c"
+      },
+      "expiry": 1686728970160
+    },
+    "/Users/lee/.pyenv/versions/3.10.9/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "63c27b389009396876930c7baeacb1daeb5bb6d803cc989997952c4a81407346ebc0181f72ddff4e54f000fd80dca5fd6937e1931b63ecf82229678ff1509d12"
+      },
+      "expiry": 1686728970183
+    },
+    "/Users/lee/.pyenv/versions/3.10.9/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "f0916f52b004da21fe9fae1f44cf5e0bb658433cc0f474374449b492bed942ee54ff4df0ad714114227d75413f5cc1e8151490f07b12995b8a741d136dac6891"
+      },
+      "expiry": 1686728970185
+    },
+    "/Users/lee/.pyenv/versions/3.10.9/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc"
+      },
+      "expiry": 1686728970189
+    },
+    "/Users/lee/.pyenv/versions/3.8.13/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.8.13/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.13-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.13-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.8.13",
+        "fileHash": "27cc9df1bf54fdf0248f0241d98147f516d17715e36b1562d3b3f8ed9b41ab21b8a890d2f4f4ba3b5e2e4dc5901f6e74dd37584d0b39ccfeaf1002a792577bf1"
+      },
+      "expiry": 1686728970198
+    },
+    "/Users/lee/.pyenv/versions/3.8.13/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.8.13/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.13-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.13-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.8.13",
+        "fileHash": "cad6a574089bf4071e89df7618f117d8ad3b7e63e7bb8c4b8ad0cc7e027d98e13abb57225dcc9b0b6c8c808af9f332cdd3bac4b6407174f6db583967e9e3c531"
+      },
+      "expiry": 1686728970200
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+        "fileHash": "1ce154a77c97d92218cd4a57f0f6ec357cafb037a6e3914d1dc0268cdeb4d026e56d12c1a9e68df3a171103dc7da3a900abcc226fdd130cc815c12d19a812507"
+      },
+      "expiry": 1686728970205
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+        "fileHash": "4c33ee2293fdce56a715ad0e6b791f8d66972511ebd44d7b5fb0e43839e5cc27e549adc8463a5ca2ab72982551daf93d2512f7b737ea7e358ad504e8f22dab28"
+      },
+      "expiry": 1686728970205
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+        "fileHash": "57ed903f464502146754cb605c1b2bfc1a75377f6e1f1bd990d754ab730b07dd1111dcb6556544a757a0241015f08b54854a1dbe14937fbb3487107abbc80a90"
+      },
+      "expiry": 1686728970206
+    },
+    "/Users/lee/.pyenv/versions/3.8.13/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.8.13/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.13-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.13-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.8.13",
+        "fileHash": "c3989e1d260be51c65f8784adf2a08b89d5cd57074075306706b4f2517a57039eac43022b46d5f631cfcc5610117321964f4c26e04f82a1bad9663755b2f2ee3"
+      },
+      "expiry": 1686728970207
+    },
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc",
+        "envName": "3.10.9",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "63c27b389009396876930c7baeacb1daeb5bb6d803cc989997952c4a81407346ebc0181f72ddff4e54f000fd80dca5fd6937e1931b63ecf82229678ff1509d12",
+        "envName": "3.10.9",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "f0916f52b004da21fe9fae1f44cf5e0bb658433cc0f474374449b492bed942ee54ff4df0ad714114227d75413f5cc1e8151490f07b12995b8a741d136dac6891",
+        "envName": "3.10.9",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.8.13/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.13-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.13-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.8.13",
+        "fileHash": "27cc9df1bf54fdf0248f0241d98147f516d17715e36b1562d3b3f8ed9b41ab21b8a890d2f4f4ba3b5e2e4dc5901f6e74dd37584d0b39ccfeaf1002a792577bf1",
+        "envName": "3.8.13",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.8.13/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.13-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.13-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.8.13",
+        "fileHash": "c3989e1d260be51c65f8784adf2a08b89d5cd57074075306706b4f2517a57039eac43022b46d5f631cfcc5610117321964f4c26e04f82a1bad9663755b2f2ee3",
+        "envName": "3.8.13",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.8.13/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.13-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.13-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.8.13",
+        "fileHash": "cad6a574089bf4071e89df7618f117d8ad3b7e63e7bb8c4b8ad0cc7e027d98e13abb57225dcc9b0b6c8c808af9f332cdd3bac4b6407174f6db583967e9e3c531",
+        "envName": "3.8.13",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+        "fileHash": "1ce154a77c97d92218cd4a57f0f6ec357cafb037a6e3914d1dc0268cdeb4d026e56d12c1a9e68df3a171103dc7da3a900abcc226fdd130cc815c12d19a812507",
+        "envName": "miniforge3-4.10",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+        "fileHash": "57ed903f464502146754cb605c1b2bfc1a75377f6e1f1bd990d754ab730b07dd1111dcb6556544a757a0241015f08b54854a1dbe14937fbb3487107abbc80a90",
+        "envName": "miniforge3-4.10",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+        "fileHash": "4c33ee2293fdce56a715ad0e6b791f8d66972511ebd44d7b5fb0e43839e5cc27e549adc8463a5ca2ab72982551daf93d2512f7b737ea7e358ad504e8f22dab28",
+        "envName": "miniforge3-4.10",
+        "type": "Pyenv"
+      }
+    ],
+    "/opt/homebrew/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.16-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.16-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "299f1e581dd6f3068f98ec494e587fb7f6cc31dfdb99dd6c92bc17011f51042146bdc30a15a98a416e17c91a82b5c6d5bce9b7a5c2b98c4e448008f8f16b776d"
+      },
+      "expiry": 1686728970208
+    },
+    "/opt/homebrew/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.11-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.11-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+        "fileHash": "9e60e856c03fda63a56fa500a10413aebfe901df3170cd9d118c5e86425ec04aa5a54e5c0d8c3a5a239db08eb07704fdfdc06a338e12d8d3f2b6cece0f09a3c9"
+      },
+      "expiry": 1686728970214
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.13-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.13-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc",
+        "fileHash": "8f0dab54e0d343f8a93f51591f8e7a665c40237566816100b73a5823ec0ff235bc604154b2ae492a5840a33b12539095440038a844002c4805c9c34a9a9069b1"
+      },
+      "expiry": 1686728970240
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "63c27b389009396876930c7baeacb1daeb5bb6d803cc989997952c4a81407346ebc0181f72ddff4e54f000fd80dca5fd6937e1931b63ecf82229678ff1509d12",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.9-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 9,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.9-final"
+      },
+      "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+      "fileHash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.11.3-final",
+        "major": 3,
+        "minor": 11,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.11.3-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+      "fileHash": "d23eaf715cf6db24395c5d0681b666e66d48cb7b4d3eada3ccdfacdb2d1b3f15646634e005966d7fd07064a9666c0df50cf7bb55eb74ee837dbfdd271f3b9abe",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.11.3 64-bit"
+    },
+    "/Users/lee/.pyenv/versions/3.10.9/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lee/.pyenv/versions/3.10.9/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.9-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.9-final"
+          },
+          "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+          "fileHash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc",
+          "envName": "3.10.9",
+          "type": "Pyenv",
+          "displayName": "Python 3.10.9 64-bit ('3.10.9': pyenv)"
+        }
+      },
+      "expiry": 1686728987387
+    },
+    "/Users/lee/.pyenv/shims/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/shims/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.16-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.16-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "b1ceb0635c617417e49ab24de2a11e7d9d43cd0811f1d2d3d27b9ec358138e5d2b3e350faf219131fd9b5a26df2f3bfc605b340565c5e8ec99a6abc08315a3f6"
+      },
+      "expiry": 1686728970321
+    },
+    "/Users/lee/.pyenv/shims/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/shims/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "58f0941e76de06d7d9724381917e2ab2da0d91c5cb17409ab1d4ad174a9ce5d7c478a6fd2bf8c6385b45c6a4202f00b2152caa6486fe67d2feb92cbf8182e691"
+      },
+      "expiry": 1686728970322
+    },
+    "/Users/lee/.pyenv/shims/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/shims/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "9a8fb2e006c78c3cca7dea7aec1db9b436f9dfde89af9f44675288f1fd959b50c2fb8210de443b7272e6a9fa94c0442e3e49bc55f79b122ecd4cd25b6b9e2984"
+      },
+      "expiry": 1686728970323
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow",
+        "fileHash": "709277da4a4caa11999a8f7ca91e611f6910a679f9a7d8a8742c18f56e2da96805a2bc92a05027903b30645b17760f6aafe80c4e62b76cd7ac6acdd02729e740"
+      },
+      "expiry": 1686728970323
+    },
+    "/Users/lee/.pyenv/shims/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/shims/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "02ada7a9ac2d6a4f465c70185fc5d1f7341632a21d52ea436d360700622c84367b634d0b281fae243ea40f138e9183f05dbd4aa3babf3e96f0c715ce26c66403"
+      },
+      "expiry": 1686728970324
+    },
+    "/Users/lee/.pyenv/versions/3.10.9/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.9 64-bit ('3.10.9': pyenv)",
+        "hash": "44b4eb821e0cbc0069901f1fb85900ef38e24cebb97f2ceee4b6edad324ff941d878eeb8dd29edd5ec30e0fb2c67e8150d91d9b375b329cb0604cd2d8ffbcbcc-a60b05e0f6cfae9db94417ce3192e4ad"
+      },
+      "expiry": 1686728987353
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/shims/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "02ada7a9ac2d6a4f465c70185fc5d1f7341632a21d52ea436d360700622c84367b634d0b281fae243ea40f138e9183f05dbd4aa3babf3e96f0c715ce26c66403",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/shims/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "58f0941e76de06d7d9724381917e2ab2da0d91c5cb17409ab1d4ad174a9ce5d7c478a6fd2bf8c6385b45c6a4202f00b2152caa6486fe67d2feb92cbf8182e691",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/shims/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.9-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.9-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+        "fileHash": "9a8fb2e006c78c3cca7dea7aec1db9b436f9dfde89af9f44675288f1fd959b50c2fb8210de443b7272e6a9fa94c0442e3e49bc55f79b122ecd4cd25b6b9e2984",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/shims/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.16-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.16-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "b1ceb0635c617417e49ab24de2a11e7d9d43cd0811f1d2d3d27b9ec358138e5d2b3e350faf219131fd9b5a26df2f3bfc605b340565c5e8ec99a6abc08315a3f6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.nix-profile/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.11-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.11-final"
+        },
+        "sysPrefix": "/nix/store/xmxc0xc03fqq8b19sxfxwyd8k71kaz5m-python3-3.10.11",
+        "fileHash": "a78c2c4aac06b260fbfdbf2e43c6b75f03183567a58417979359b498566d540574d04447955b3071d5460d708a446d9b47597d180b0f8a560f9594de4dcbbbdf",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.nix-profile/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.11-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.11-final"
+        },
+        "sysPrefix": "/nix/store/xmxc0xc03fqq8b19sxfxwyd8k71kaz5m-python3-3.10.11",
+        "fileHash": "a18477bc5c831e81ceb8efb23ba8731c0a138cb1815c114df8a6e55cf2392232cba7ae13552b40270109ec9367cbbb163629e8b2542f0086818c34d9b1760ec3",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.nix-profile/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.11-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.11-final"
+        },
+        "sysPrefix": "/nix/store/xmxc0xc03fqq8b19sxfxwyd8k71kaz5m-python3-3.10.11",
+        "fileHash": "2c05404540ffcd07c310ecb8a88b028dc12182be170a469bfe3ee29a64d3e6aed10c5377586609cc862a4086e7976040163b46f741f01cd48ac66270b240083b",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.3-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.3-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+        "fileHash": "d23eaf715cf6db24395c5d0681b666e66d48cb7b4d3eada3ccdfacdb2d1b3f15646634e005966d7fd07064a9666c0df50cf7bb55eb74ee837dbfdd271f3b9abe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.11-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.11-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+        "fileHash": "9e60e856c03fda63a56fa500a10413aebfe901df3170cd9d118c5e86425ec04aa5a54e5c0d8c3a5a239db08eb07704fdfdc06a338e12d8d3f2b6cece0f09a3c9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.11",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.3-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.3-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+        "fileHash": "55439e6b7b4126ad05b6ec3448f79894473308f004adc6bbd7c20fb51897640c0eebbd9785115fcda66072bbc24e51441662728bc09c30abca3dd96ae0e1912c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.16-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.16-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "299f1e581dd6f3068f98ec494e587fb7f6cc31dfdb99dd6c92bc17011f51042146bdc30a15a98a416e17c91a82b5c6d5bce9b7a5c2b98c4e448008f8f16b776d",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "ae6134e762003b5d938990e003d94578de64f5b7513a6509e3d54df3ab2638b5c05c90749342ac2a0c29d17012f4dbf19e40154b3f7512b9838f9ba30d475473",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "ae6134e762003b5d938990e003d94578de64f5b7513a6509e3d54df3ab2638b5c05c90749342ac2a0c29d17012f4dbf19e40154b3f7512b9838f9ba30d475473",
+        "type": "Unknown"
+      }
+    ],
+    "CONDA_ENVIRONMENTS": {},
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.2-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.2-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+        "fileHash": "1ce154a77c97d92218cd4a57f0f6ec357cafb037a6e3914d1dc0268cdeb4d026e56d12c1a9e68df3a171103dc7da3a900abcc226fdd130cc815c12d19a812507",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+        "envName": "miniforge3-4.10"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.12-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.12-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow",
+        "fileHash": "709277da4a4caa11999a8f7ca91e611f6910a679f9a7d8a8742c18f56e2da96805a2bc92a05027903b30645b17760f6aafe80c4e62b76cd7ac6acdd02729e740",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow",
+        "envName": "tensorflow"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.13-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.13-final"
+        },
+        "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc",
+        "fileHash": "8f0dab54e0d343f8a93f51591f8e7a665c40237566816100b73a5823ec0ff235bc604154b2ae492a5840a33b12539095440038a844002c4805c9c34a9a9069b1",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc",
+        "envName": "poc"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "PipEnvInformation": [],
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.2 64-bit ('miniforge3-4.10': conda)",
+        "hash": "1ce154a77c97d92218cd4a57f0f6ec357cafb037a6e3914d1dc0268cdeb4d026e56d12c1a9e68df3a171103dc7da3a900abcc226fdd130cc815c12d19a812507-0bf0ec64b7ac9a81744faab0c7f6bb1c"
+      },
+      "expiry": 1686728970681
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.12 64-bit ('tensorflow': conda)",
+        "hash": "709277da4a4caa11999a8f7ca91e611f6910a679f9a7d8a8742c18f56e2da96805a2bc92a05027903b30645b17760f6aafe80c4e62b76cd7ac6acdd02729e740-aa0edd3a9c83bff9d76d4dd94e3dbdab"
+      },
+      "expiry": 1686728970683
+    },
+    "/Users/lee/.pyenv/shims/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.9 64-bit",
+        "hash": "02ada7a9ac2d6a4f465c70185fc5d1f7341632a21d52ea436d360700622c84367b634d0b281fae243ea40f138e9183f05dbd4aa3babf3e96f0c715ce26c66403-ae3378e9bcac6262b4f885503913d200"
+      },
+      "expiry": 1686728970684
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.13 64-bit ('poc': conda)",
+        "hash": "8f0dab54e0d343f8a93f51591f8e7a665c40237566816100b73a5823ec0ff235bc604154b2ae492a5840a33b12539095440038a844002c4805c9c34a9a9069b1-5ec19cf3d822e38535c452a3e5fa7167"
+      },
+      "expiry": 1686728970685
+    },
+    "/Users/lee/.pyenv/shims/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.16 64-bit",
+        "hash": "b1ceb0635c617417e49ab24de2a11e7d9d43cd0811f1d2d3d27b9ec358138e5d2b3e350faf219131fd9b5a26df2f3bfc605b340565c5e8ec99a6abc08315a3f6-ed9fdf323ae95a4f315e602dafd05f73"
+      },
+      "expiry": 1686728970687
+    },
+    "/opt/homebrew/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.11.3 64-bit",
+        "hash": "d23eaf715cf6db24395c5d0681b666e66d48cb7b4d3eada3ccdfacdb2d1b3f15646634e005966d7fd07064a9666c0df50cf7bb55eb74ee837dbfdd271f3b9abe-5ba44bf2eba7f82af2c448526b223d3b"
+      },
+      "expiry": 1686728970688
+    },
+    "/opt/homebrew/bin/python3.10.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.11 64-bit",
+        "hash": "9e60e856c03fda63a56fa500a10413aebfe901df3170cd9d118c5e86425ec04aa5a54e5c0d8c3a5a239db08eb07704fdfdc06a338e12d8d3f2b6cece0f09a3c9-fbe9d59dfa9192524ba4ce9926b2b35b"
+      },
+      "expiry": 1686728970689
+    },
+    "/opt/homebrew/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.16 64-bit",
+        "hash": "299f1e581dd6f3068f98ec494e587fb7f6cc31dfdb99dd6c92bc17011f51042146bdc30a15a98a416e17c91a82b5c6d5bce9b7a5c2b98c4e448008f8f16b776d-a95e45d90b6fab9aa2ed56c6fa7775ea"
+      },
+      "expiry": 1686728970691
+    },
+    "/Users/lee/.pyenv/versions/3.8.13/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.13 64-bit ('3.8.13': pyenv)",
+        "hash": "27cc9df1bf54fdf0248f0241d98147f516d17715e36b1562d3b3f8ed9b41ab21b8a890d2f4f4ba3b5e2e4dc5901f6e74dd37584d0b39ccfeaf1002a792577bf1-057934261f73cae5bc2414d7fa051e63"
+      },
+      "expiry": 1686728970701
+    },
+    "/Users/lee/.nix-profile/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.11 64-bit",
+        "hash": "a78c2c4aac06b260fbfdbf2e43c6b75f03183567a58417979359b498566d540574d04447955b3071d5460d708a446d9b47597d180b0f8a560f9594de4dcbbbdf-12139bd2c088579f6f2733129c13ae9d"
+      },
+      "expiry": 1686728970702
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.6 64-bit",
+        "hash": "ae6134e762003b5d938990e003d94578de64f5b7513a6509e3d54df3ab2638b5c05c90749342ac2a0c29d17012f4dbf19e40154b3f7512b9838f9ba30d475473-d45b637a5d2542defbb0ab40d8402a17"
+      },
+      "expiry": 1686728970719
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.11.3-final",
+        "major": 3,
+        "minor": 11,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.11.3-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+      "fileHash": "d23eaf715cf6db24395c5d0681b666e66d48cb7b4d3eada3ccdfacdb2d1b3f15646634e005966d7fd07064a9666c0df50cf7bb55eb74ee837dbfdd271f3b9abe",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.11.3 64-bit"
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "1ce154a77c97d92218cd4a57f0f6ec357cafb037a6e3914d1dc0268cdeb4d026e56d12c1a9e68df3a171103dc7da3a900abcc226fdd130cc815c12d19a812507",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.2-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.2-final"
+          },
+          "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+          "fileHash": "1ce154a77c97d92218cd4a57f0f6ec357cafb037a6e3914d1dc0268cdeb4d026e56d12c1a9e68df3a171103dc7da3a900abcc226fdd130cc815c12d19a812507",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lee/.pyenv/versions/miniforge3-4.10",
+          "envName": "miniforge3-4.10",
+          "displayName": "Python 3.9.2 64-bit ('miniforge3-4.10': conda)"
+        }
+      },
+      "expiry": 1686728970825
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "709277da4a4caa11999a8f7ca91e611f6910a679f9a7d8a8742c18f56e2da96805a2bc92a05027903b30645b17760f6aafe80c4e62b76cd7ac6acdd02729e740",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.12-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 12,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.12-final"
+          },
+          "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow",
+          "fileHash": "709277da4a4caa11999a8f7ca91e611f6910a679f9a7d8a8742c18f56e2da96805a2bc92a05027903b30645b17760f6aafe80c4e62b76cd7ac6acdd02729e740",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/tensorflow",
+          "envName": "tensorflow",
+          "displayName": "Python 3.9.12 64-bit ('tensorflow': conda)"
+        }
+      },
+      "expiry": 1686728970829
+    },
+    "/Users/lee/.pyenv/shims/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "02ada7a9ac2d6a4f465c70185fc5d1f7341632a21d52ea436d360700622c84367b634d0b281fae243ea40f138e9183f05dbd4aa3babf3e96f0c715ce26c66403",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lee/.pyenv/shims/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.9-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.9-final"
+          },
+          "sysPrefix": "/Users/lee/.pyenv/versions/3.10.9",
+          "fileHash": "02ada7a9ac2d6a4f465c70185fc5d1f7341632a21d52ea436d360700622c84367b634d0b281fae243ea40f138e9183f05dbd4aa3babf3e96f0c715ce26c66403",
+          "type": "Unknown",
+          "displayName": "Python 3.10.9 64-bit"
+        }
+      },
+      "expiry": 1686728970834
+    },
+    "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "8f0dab54e0d343f8a93f51591f8e7a665c40237566816100b73a5823ec0ff235bc604154b2ae492a5840a33b12539095440038a844002c4805c9c34a9a9069b1",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.13-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 13,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.13-final"
+          },
+          "sysPrefix": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc",
+          "fileHash": "8f0dab54e0d343f8a93f51591f8e7a665c40237566816100b73a5823ec0ff235bc604154b2ae492a5840a33b12539095440038a844002c4805c9c34a9a9069b1",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lee/.pyenv/versions/miniforge3-4.10/envs/poc",
+          "envName": "poc",
+          "displayName": "Python 3.8.13 64-bit ('poc': conda)"
+        }
+      },
+      "expiry": 1686728970838
+    },
+    "/Users/lee/.pyenv/shims/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b1ceb0635c617417e49ab24de2a11e7d9d43cd0811f1d2d3d27b9ec358138e5d2b3e350faf219131fd9b5a26df2f3bfc605b340565c5e8ec99a6abc08315a3f6",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lee/.pyenv/shims/python3.9",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.16-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.16-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "b1ceb0635c617417e49ab24de2a11e7d9d43cd0811f1d2d3d27b9ec358138e5d2b3e350faf219131fd9b5a26df2f3bfc605b340565c5e8ec99a6abc08315a3f6",
+          "type": "Unknown",
+          "displayName": "Python 3.9.16 64-bit"
+        }
+      },
+      "expiry": 1686728970843
+    },
+    "/opt/homebrew/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d23eaf715cf6db24395c5d0681b666e66d48cb7b4d3eada3ccdfacdb2d1b3f15646634e005966d7fd07064a9666c0df50cf7bb55eb74ee837dbfdd271f3b9abe",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.11.3-final",
+            "major": 3,
+            "minor": 11,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.11.3-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+          "fileHash": "d23eaf715cf6db24395c5d0681b666e66d48cb7b4d3eada3ccdfacdb2d1b3f15646634e005966d7fd07064a9666c0df50cf7bb55eb74ee837dbfdd271f3b9abe",
+          "type": "Unknown",
+          "displayName": "Python 3.11.3 64-bit"
+        }
+      },
+      "expiry": 1686728970847
+    },
+    "/opt/homebrew/bin/python3.10.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9e60e856c03fda63a56fa500a10413aebfe901df3170cd9d118c5e86425ec04aa5a54e5c0d8c3a5a239db08eb07704fdfdc06a338e12d8d3f2b6cece0f09a3c9",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/bin/python3.10",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.11-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 11,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.11-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
+          "fileHash": "9e60e856c03fda63a56fa500a10413aebfe901df3170cd9d118c5e86425ec04aa5a54e5c0d8c3a5a239db08eb07704fdfdc06a338e12d8d3f2b6cece0f09a3c9",
+          "type": "Unknown",
+          "displayName": "Python 3.10.11 64-bit"
+        }
+      },
+      "expiry": 1686728970852
+    },
+    "/opt/homebrew/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "299f1e581dd6f3068f98ec494e587fb7f6cc31dfdb99dd6c92bc17011f51042146bdc30a15a98a416e17c91a82b5c6d5bce9b7a5c2b98c4e448008f8f16b776d",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/bin/python3.9",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.16-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.16-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "299f1e581dd6f3068f98ec494e587fb7f6cc31dfdb99dd6c92bc17011f51042146bdc30a15a98a416e17c91a82b5c6d5bce9b7a5c2b98c4e448008f8f16b776d",
+          "type": "Unknown",
+          "displayName": "Python 3.9.16 64-bit"
+        }
+      },
+      "expiry": 1686728970857
+    },
+    "/Users/lee/.pyenv/versions/3.8.13/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "27cc9df1bf54fdf0248f0241d98147f516d17715e36b1562d3b3f8ed9b41ab21b8a890d2f4f4ba3b5e2e4dc5901f6e74dd37584d0b39ccfeaf1002a792577bf1",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lee/.pyenv/versions/3.8.13/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.13-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 13,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.13-final"
+          },
+          "sysPrefix": "/Users/lee/.pyenv/versions/3.8.13",
+          "fileHash": "27cc9df1bf54fdf0248f0241d98147f516d17715e36b1562d3b3f8ed9b41ab21b8a890d2f4f4ba3b5e2e4dc5901f6e74dd37584d0b39ccfeaf1002a792577bf1",
+          "envName": "3.8.13",
+          "type": "Pyenv",
+          "displayName": "Python 3.8.13 64-bit ('3.8.13': pyenv)"
+        }
+      },
+      "expiry": 1686728970861
+    },
+    "/Users/lee/.nix-profile/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a78c2c4aac06b260fbfdbf2e43c6b75f03183567a58417979359b498566d540574d04447955b3071d5460d708a446d9b47597d180b0f8a560f9594de4dcbbbdf",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lee/.nix-profile/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.11-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 11,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.11-final"
+          },
+          "sysPrefix": "/nix/store/xmxc0xc03fqq8b19sxfxwyd8k71kaz5m-python3-3.10.11",
+          "fileHash": "a78c2c4aac06b260fbfdbf2e43c6b75f03183567a58417979359b498566d540574d04447955b3071d5460d708a446d9b47597d180b0f8a560f9594de4dcbbbdf",
+          "type": "Unknown",
+          "displayName": "Python 3.10.11 64-bit"
+        }
+      },
+      "expiry": 1686728970866
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ae6134e762003b5d938990e003d94578de64f5b7513a6509e3d54df3ab2638b5c05c90749342ac2a0c29d17012f4dbf19e40154b3f7512b9838f9ba30d475473",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.6-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.6-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
+          "fileHash": "ae6134e762003b5d938990e003d94578de64f5b7513a6509e3d54df3ab2638b5c05c90749342ac2a0c29d17012f4dbf19e40154b3f7512b9838f9ba30d475473",
+          "type": "Unknown",
+          "displayName": "Python 3.9.6 64-bit"
+        }
+      },
+      "expiry": 1686728970871
+    },
+    "ProposeLSBanner": false,
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.11.3-final",
+        "major": 3,
+        "minor": 11,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.11.3-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+      "fileHash": "d23eaf715cf6db24395c5d0681b666e66d48cb7b4d3eada3ccdfacdb2d1b3f15646634e005966d7fd07064a9666c0df50cf7bb55eb74ee837dbfdd271f3b9abe",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.11.3 64-bit"
     }
   }
 }
