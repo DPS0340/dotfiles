@@ -196,6 +196,7 @@ export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/share/pkgconfig
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
 unalias s
 alias s='sudo'
@@ -220,4 +221,4 @@ export K9S_EDITOR="nvim"
 
 # autoload -Uz zsh-newuser-install && zsh-newuser-install -f
 
-tmux
+tmux new
