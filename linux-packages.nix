@@ -4,4 +4,5 @@ with import <nixpkgs> {};
 	chromium
 	jetbrains.idea-ultimate
 	wine
+	kime
 ]

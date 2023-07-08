@@ -1,4 +1,4 @@
 #!/bin/bash
 
-nix-shell shell.nix
+nix-shell --pure shell.nix
 

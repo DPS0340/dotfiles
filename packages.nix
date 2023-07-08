@@ -33,10 +33,10 @@ with import <nixpkgs> {};
 	k9s
 	git
 	rclone
-	kime
 	unixtools.nettools
 	awscli2
 	yq
 	jq
 	tmux
+	lsof
 ]
