@@ -9,17 +9,19 @@ DIR=$(dirname "$LOCATION")
 # Cache sudo credential
 sudo -v
 
-rm ~/.vimrc
-rm ~/.zshrc
-rm ~/.p10k.zsh
-rm -rf ~/.config
-rm -rf ~/.zsh
-rm -rf ~/.xprofile
-rm -rf ~/.zprofile
-rm -rf ~/.zplugin
-rm -rf ~/.vim_runtime
-rm -rf ~/.tmux
-rm -rf ~/.tmux.conf
+timestamp=$(date +%s)
+
+mv ~/.vimrc ~/.vimrc.bak-$timestamp
+mv ~/.zshrc ~/.zshrc.bak-$timestamp
+mv ~/.p10k.zsh ~/.p10k.zsh.bak-$timestamp
+mv ~/.config ~/.config.zsh.bak-$timestamp
+mv ~/.zsh ~/.zsh.zsh.bak-$timestamp
+mv ~/.xprofile ~/.xprofile.zsh.bak-$timestamp
+mv ~/.zprofile ~/.zprofile.zsh.bak-$timestamp
+mv ~/.zprofile ~/.zplugin.zsh.bak-$timestamp
+mv ~/.vim_runtime ~/.vim_runtime.zsh.bak-$timestamp
+mv ~/.tmux ~/.tmux.bak-$timestamp
+mv ~/.tmux.conf ~/.tmux.conf.bak-$timestamp
 
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
