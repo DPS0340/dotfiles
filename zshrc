@@ -221,6 +221,10 @@ export TERM=xterm-256color
 export EDITOR="nvim"
 export K9S_EDITOR="nvim"
 
+alias merge='git config pull.rebase false'
+alias rebase='git config pull.rebase true'
+alias ff='git config pull.ff only'
+
 # autoload -Uz zsh-newuser-install && zsh-newuser-install -f
 
 tmux new
