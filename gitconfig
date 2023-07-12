@@ -1,0 +1,24 @@
+[user]
+	name = Jiho Lee
+	email = optional.int@kakao.com
+[core]
+	autocrlf = input
+	editor = nvim
+	pager = less -F -X
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color]
+	pager = true
+	ui = true
+[alias]
+	l = "log \
+    --color --graph \
+    --abbrev-commit \
+    --pretty=format:'%Cred%h %Creset-%C(yellow)%d %Creset%s %Cgreen(%cr)%C(bold blue)<%an>'"
+	clr = "clean -fx"
+

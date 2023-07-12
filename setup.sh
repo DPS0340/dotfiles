@@ -22,6 +22,7 @@ mv ~/.zprofile ~/.zplugin.zsh.bak-$timestamp
 mv ~/.vim_runtime ~/.vim_runtime.zsh.bak-$timestamp
 mv ~/.tmux ~/.tmux.bak-$timestamp
 mv ~/.tmux.conf ~/.tmux.conf.bak-$timestamp
+mv ~/.gitconfig ~/.gitconfig-$timestamp
 
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
@@ -34,6 +35,7 @@ ln -s $DIR/zplugin ~/.zplugin
 ln -s $DIR/p10k.zsh ~/.p10k.zsh
 ln -s $DIR/tmux ~/.tmux
 ln -s $DIR/tmux.conf ~/.tmux.conf
+ln -s $DIR/gitconfig ~/.gitconfig
 
 # Original code from https://github.com/driesvints/dotfiles/blob/main/fresh.sh
 # Check for Homebrew and install if we don't have it
