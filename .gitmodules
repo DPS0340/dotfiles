@@ -7,3 +7,6 @@
 [submodule "zplugin"]
 	path = zplugin
 	url = https://github.com/DPS0340/zplugin
+[submodule "tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
