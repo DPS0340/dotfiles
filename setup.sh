@@ -37,6 +37,8 @@ ln -s $DIR/tmux ~/.tmux
 ln -s $DIR/tmux.conf ~/.tmux.conf
 ln -s $DIR/gitconfig ~/.gitconfig
 
+ln -s "~/.wine/drive_c/users/dps0340/Documents/KakaoTalk Downloads" ~/kakaotalk-downloads
+
 # Original code from https://github.com/driesvints/dotfiles/blob/main/fresh.sh
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
