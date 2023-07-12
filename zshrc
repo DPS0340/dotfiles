@@ -34,7 +34,10 @@ plugins=(
   kubectl
   kube-ps1
   wakatime
+  tmux
 )
+
+export ZSH_TMUX_AUTOSTART=true
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
@@ -226,5 +229,3 @@ alias rebase='git config pull.rebase true'
 alias ff='git config pull.ff only'
 
 # autoload -Uz zsh-newuser-install && zsh-newuser-install -f
-
-tmux new
