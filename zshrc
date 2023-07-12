@@ -42,6 +42,7 @@ export ZSH_TMUX_AUTOSTART=true
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.zsh/BlaCk-Void.zshrc
 
 alias rr='source ~/.zshrc'
 
@@ -171,8 +172,6 @@ zstyle ':bracketed-paste-magic' active-widgets '.self-*'
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-source $HOME/.zsh/BlaCk-Void.zshrc
 
 if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
   source '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
