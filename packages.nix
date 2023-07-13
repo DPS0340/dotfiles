@@ -24,7 +24,7 @@ with import <nixpkgs> {};
 	go
 	obsidian
 	kubectl
-	terraform
+	rustc
 	vscode
 	nerdfonts
 	jetbrains-mono
