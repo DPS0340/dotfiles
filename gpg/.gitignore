@@ -3,6 +3,7 @@
 !.gitignore
 !decrypted
 !decrypted/.gitkeep
+!encrypted
 !encrypted/*
 !encrypted/**/*
 !dps0340.asc
