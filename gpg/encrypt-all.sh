@@ -1,13 +1,20 @@
 #!/bin/bash
 
-for f in ./decrypted/*; do
-    filename=$(basename -- "$f")
+for f in $(find ./decrypted); do
+    filename=$(echo $f | sed 's/.\/decrypted\///')
 
-    echo $filename
-
-    if [[ filename = ".gitkeep" ]]; then
+    if [[ filename == ".gitkeep" ]]; then
         continue
     fi
 
-    gpg --sign --recipient optional.int@kakao.com -o ./encrypted/$filename.gpg --encrypt $f
+	if [[ -d $f ]]; then
+		continue
+	fi
+
+    echo $filename
+
+	mkdir -p ./encrypted/$(dirname $filename)
+	touch ./encrypted/$filename
+
+    gpg --batch --yes --sign --recipient optional.int@kakao.com -o ./encrypted/$filename --encrypt $f
 done
