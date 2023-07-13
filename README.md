@@ -3,6 +3,7 @@
 ## Usage
 
 ```bash
+cd ~
 git clone --recursive https://github.com/DPS0340/dotfiles
 cd dotfiles
 ./setup.sh
