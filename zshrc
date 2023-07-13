@@ -201,6 +201,7 @@ alias s='sudo'
 
 # For cloud foundry cli usage
 unalias cf
+unset -f cf
 
 
 # To customize prompt, run `p10k configure` or edit ~/dotfiles/p10k.zsh.
