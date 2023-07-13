@@ -104,7 +104,6 @@ if [ ! -z $WSL_ENABLE ]; then
     }; exec_neovide'
 
     alias open='explorer.exe'
-    alias init-discord-rpc='sudo ~/init-discord-rpc.sh'
 else
     alias clip='xclip -sel clip'
     neovideAlias='neovide'   
