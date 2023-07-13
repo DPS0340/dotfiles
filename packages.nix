@@ -39,6 +39,4 @@ with import <nixpkgs> {};
 	jq
 	tmux
 	lsof
-	google-chrome
-	firefox
 ]

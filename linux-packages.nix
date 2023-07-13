@@ -5,4 +5,6 @@ with import <nixpkgs> {};
 	jetbrains.idea-ultimate
 	wine
 	kime
+	google-chrome
+	firefox
 ]
