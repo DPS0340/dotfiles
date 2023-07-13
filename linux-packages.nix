@@ -6,4 +6,5 @@ with import <nixpkgs> {};
 	kime
 	google-chrome
 	firefox
+	xsel # Clipboard
 ]
