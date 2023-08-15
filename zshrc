@@ -6,7 +6,7 @@ fi
 
 # autoload -Uz zsh-newuser-install && zsh-newuser-install -f
 # autoload -Uz compinstall && compinstall
-autoload -Uz compinit && compinit
+# autoload -Uz compinit && compinit
 
 
 # export DISPLAY=':0.0'
@@ -64,6 +64,8 @@ alias gr='git reset'
 alias grs='git reset --soft'
 alias grm='git reset --mixed'
 alias grh='git reset --hard'
+
+alias gclfx='git clean -fx'
 
 function grsa () {
 	git restore --staged $1
@@ -159,7 +161,6 @@ bindkey '[D' backward-word
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-source <(kubectl completion zsh)
 
 autoload -Uz bracketed-paste-magic
 zle -N bracketed-paste bracketed-paste-magic
@@ -215,6 +216,9 @@ alias ls='exa -alh'
 alias ll='exa -alh'
 alias l='exa -alh'
 
+unalias la
+alias la='exa -alh'
+
 alias sl='exa -alh'
 
 alias kill6443='lsof -t -i:6443 | xargs kill -9'
@@ -228,4 +232,19 @@ alias rebase='git config pull.rebase true'
 alias ff='git config pull.ff only'
 
 # autoload -Uz zsh-newuser-install && zsh-newuser-install -f
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/lee/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+
+alias k=kubectl
+autoload -U +X compinit && compinit
+source <(kubectl completion zsh)
+
+unalias gap
+alias gap='git add -p'
+
 tmux new
+
+
