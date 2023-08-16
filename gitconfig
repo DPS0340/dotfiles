@@ -22,3 +22,5 @@
     --pretty=format:'%Cred%h %Creset-%C(yellow)%d %Creset%s %Cgreen(%cr)%C(bold blue)<%an>'"
 	clr = "clean -fx"
 
+[push]
+	default = current
