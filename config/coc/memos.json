@@ -47,9 +47,14 @@
         "updateTime": 1686117198915
       },
       "https://json.schemastore.org/tsconfig.json": {
-        "etag": "\"80f8c2f6f88d91:0\"",
+        "etag": "\"034bc39c6a2d91:0\"",
         "fileName": "a28507e42e8bfd5fba830538461d5db3.schema.json",
-        "updateTime": 1686117213438
+        "updateTime": 1689641996700
+      },
+      "https://json.schemastore.org/nest-cli": {
+        "etag": "\"058aaf85ca4d91:0\"",
+        "fileName": "71f7cb72efcdb4198bbe557caba30dce.schema.json",
+        "updateTime": 1689641993350
       }
     }
   },
