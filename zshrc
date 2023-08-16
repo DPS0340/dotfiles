@@ -56,6 +56,9 @@ alias gpmd='git push mine dev'
 alias gpo='git push origin'
 alias gpm='git push mine'
 
+unalias gap
+alias gap='git add -p'
+
 alias gck='git checkout'
 alias gckb='git checkout -b'
 
@@ -190,6 +193,7 @@ git config --global --replace-all core.pager "less -F -X"
 git config --global init.defaultBranch main
 git config --global user.name "Jiho Lee"
 git config --global user.email "optional.int@kakao.com"
+git config --global push.default current
 
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/share/pkgconfig
@@ -197,6 +201,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
+unalias _
 unalias s
 alias s='sudo'
 
