@@ -9,20 +9,20 @@ DIR=$(dirname "$LOCATION")
 # Cache sudo credential
 sudo -v
 
-timestamp=$(date +%s)
+datetime=$(date +'%Y-%m-%d_%H:%M:%S')
 
-mv ~/.vimrc ~/.vimrc.bak-$timestamp
-mv ~/.zshrc ~/.zshrc.bak-$timestamp
-mv ~/.p10k.zsh ~/.p10k.zsh.bak-$timestamp
-mv ~/.config ~/.config.zsh.bak-$timestamp
-mv ~/.zsh ~/.zsh.zsh.bak-$timestamp
-mv ~/.xprofile ~/.xprofile.zsh.bak-$timestamp
-mv ~/.zprofile ~/.zprofile.zsh.bak-$timestamp
-mv ~/.zprofile ~/.zplugin.zsh.bak-$timestamp
-mv ~/.vim_runtime ~/.vim_runtime.zsh.bak-$timestamp
-mv ~/.tmux ~/.tmux.bak-$timestamp
-mv ~/.tmux.conf ~/.tmux.conf.bak-$timestamp
-mv ~/.gitconfig ~/.gitconfig-$timestamp
+mv ~/.vimrc ~/.vimrc.bak-$datetime
+mv ~/.zshrc ~/.zshrc.bak-$datetime
+mv ~/.p10k.zsh ~/.p10k.zsh.bak-$datetime
+mv ~/.config ~/.config.zsh.bak-$datetime
+mv ~/.zsh ~/.zsh.zsh.bak-$datetime
+mv ~/.xprofile ~/.xprofile.zsh.bak-$datetime
+mv ~/.zprofile ~/.zprofile.zsh.bak-$datetime
+mv ~/.plugin ~/.zplugin.zsh.bak-$datetime
+mv ~/.vim_runtime ~/.vim_runtime.zsh.bak-$datetime
+mv ~/.tmux ~/.tmux.bak-$datetime
+mv ~/.tmux.conf ~/.tmux.conf.bak-$datetime
+mv ~/.gitconfig ~/.gitconfig-$datetime
 
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
@@ -55,6 +55,8 @@ if test ! $(which brew); then
 fi
 
 brew install --cask orbstack macfuse onedrive
+
+brew install coreutils zplugin zinit pyenv
 
 if test ! $(which nix-env); then
     sh <(curl -L https://nixos.org/nix/install) --daemon
