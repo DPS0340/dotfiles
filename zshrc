@@ -228,6 +228,10 @@ alias sl='exa -alh'
 
 alias kill6443='lsof -t -i:6443 | xargs kill -9'
 
+function killport () {
+	lsof -t -i:$1 | xargs kill -9
+}
+
 export TERM=xterm-256color
 export EDITOR="nvim"
 export K9S_EDITOR="nvim"
