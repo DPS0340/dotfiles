@@ -194,6 +194,7 @@ git config --global init.defaultBranch main
 git config --global user.name "Jiho Lee"
 git config --global user.email "optional.int@kakao.com"
 git config --global push.default current
+git config --global pull.default current
 
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/share/pkgconfig
