@@ -16,7 +16,7 @@ mkShell {
 		tldr
 		gh
 		bat
-		exa
+		eza
 		neofetch
 		curl
 		wget
@@ -40,6 +40,7 @@ mkShell {
 		yq
 		jq
 		tmux
+		imgcat
 	];
 }
 
