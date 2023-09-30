@@ -39,4 +39,5 @@ with import <nixpkgs> {};
 	jq
 	tmux
 	lsof
+	kubernetes-helm
 ]
