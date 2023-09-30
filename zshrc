@@ -218,14 +218,14 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 set -o vi
 # bindkey -v
 
-alias ls='exa -alh'
-alias ll='exa -alh'
-alias l='exa -alh'
+alias ls='eza -alh'
+alias ll='eza -alh'
+alias l='eza -alh'
 
 unalias la
-alias la='exa -alh'
+alias la='eza -alh'
 
-alias sl='exa -alh'
+alias sl='eza -alh'
 
 alias kill6443='lsof -t -i:6443 | xargs kill -9'
 
@@ -258,3 +258,6 @@ alias gap='git add -p'
 tmux new
 
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
