@@ -40,4 +40,5 @@ with import <nixpkgs> {};
 	tmux
 	lsof
 	kubernetes-helm
+	pyenv
 ]
