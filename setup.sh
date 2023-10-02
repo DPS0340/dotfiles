@@ -56,7 +56,7 @@ fi
 
 brew install --cask orbstack macfuse onedrive
 
-brew install coreutils zplugin zinit pyenv
+brew install coreutils zplugin zinit pyenv neovim
 
 if test ! $(which nix-env); then
     sh <(curl -L https://nixos.org/nix/install) --daemon

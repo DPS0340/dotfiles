@@ -7,12 +7,11 @@ with import <nixpkgs> {};
 	fira-code
 	zsh
 	zplug
-	neovim
 	neovide
 	tldr
 	gh
 	bat
-	exa
+	eza
 	neofetch
 	curl
 	wget
@@ -41,4 +40,8 @@ with import <nixpkgs> {};
 	lsof
 	kubernetes-helm
 	pyenv
+	zip
+	unzip
+	imgcat
+	python3
 ]
