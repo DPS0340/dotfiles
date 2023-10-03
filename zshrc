@@ -128,11 +128,6 @@ alias td='tldr'
 
 alias gcomp='g++ -O3 -Ofast -funroll-loops -msse -msse2 -msse3 -mssse3 -msse4 -mavx -mavx2 -std=c++17'
 
-alias g++='g++-12'
-alias c++='g++-12'
-alias gcc='gcc-12'
-alias cc='gcc-12'
-
 alias dq='xattr -r -d com.apple.quarantine'
 
 man() {
@@ -258,6 +253,10 @@ alias gap='git add -p'
 tmux new
 
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
