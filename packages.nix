@@ -11,7 +11,6 @@ with import <nixpkgs> {};
 	tldr
 	gh
 	bat
-	eza
 	neofetch
 	curl
 	wget
@@ -39,7 +38,6 @@ with import <nixpkgs> {};
 	tmux
 	lsof
 	kubernetes-helm
-	pyenv
 	zip
 	unzip
 	imgcat

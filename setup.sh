@@ -36,6 +36,7 @@ ln -s $DIR/p10k.zsh ~/.p10k.zsh
 ln -s $DIR/tmux ~/.tmux
 ln -s $DIR/tmux.conf ~/.tmux.conf
 ln -s $DIR/gitconfig ~/.gitconfig
+ln -s $DIR/gitignore ~/.gitignore
 
 ln -s "~/.wine/drive_c/users/dps0340/Documents/KakaoTalk Downloads" ~/kakaotalk-downloads
 
@@ -56,7 +57,7 @@ fi
 
 brew install --cask orbstack macfuse onedrive
 
-brew install coreutils zplugin zinit pyenv neovim
+brew install coreutils zplugin zinit pyenv neovim eza
 
 if test ! $(which nix-env); then
     sh <(curl -L https://nixos.org/nix/install) --daemon
