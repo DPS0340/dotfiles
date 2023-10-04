@@ -5,6 +5,7 @@
 	autocrlf = input
 	editor = nvim
 	pager = less -F -X
+	excludesFile = /Users/lee/.gitignore
 [init]
 	defaultBranch = main
 [filter "lfs"]
