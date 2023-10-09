@@ -23,6 +23,8 @@ mv ~/.vim_runtime ~/.vim_runtime.zsh.bak-$datetime
 mv ~/.tmux ~/.tmux.bak-$datetime
 mv ~/.tmux.conf ~/.tmux.conf.bak-$datetime
 mv ~/.gitconfig ~/.gitconfig-$datetime
+mv ~/.gitignore ~/.gitignore-$datetime
+mv ~/kakaotalk-downloads ~/kakaotalk-downloads-$datetime
 
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
@@ -57,7 +59,7 @@ fi
 
 brew install --cask orbstack macfuse onedrive
 
-brew install coreutils zplugin zinit pyenv neovim eza
+brew install coreutils zplug zinit pyenv neovim eza ctags
 
 if test ! $(which nix-env); then
     sh <(curl -L https://nixos.org/nix/install) --daemon
