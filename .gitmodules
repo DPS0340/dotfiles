@@ -16,3 +16,6 @@
 [submodule "tmux-sensible"]
 	path = tmux/plugins/tmux-sensible
 	url = https://github.com/tmux-plugins/tmux-sensible
+[submodule "tmux-battery"]
+	path = tmux/plugins/tmux-battery
+	url = https://github.com/tmux-plugins/tmux-battery
