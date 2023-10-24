@@ -62,7 +62,7 @@ brew install --cask orbstack macfuse onedrive
 brew install coreutils zplug zinit pyenv neovim eza ctags
 
 if test ! $(which nix-env); then
-    sh <(curl -L https://nixos.org/nix/install) --daemon
+    sh <(curl -L https://nixos.org/nix/install) --no-daemon
 fi
 
 $DIR/install-packages.sh
