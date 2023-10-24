@@ -42,28 +42,9 @@ ln -s $DIR/gitignore ~/.gitignore
 
 ln -s "~/.wine/drive_c/users/dps0340/Documents/KakaoTalk Downloads" ~/kakaotalk-downloads
 
-# Original code from https://github.com/driesvints/dotfiles/blob/main/fresh.sh
-# Check for Homebrew and install if we don't have it
-if test ! $(which brew); then
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-  if [ "$(uname)" == "Linux" ]; then
-    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/dps0340/.bashrc
-    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/dps0340/.zshrc
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-  else
-    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
-    eval "$(/opt/homebrew/bin/brew shellenv)"
-  fi
-fi
-
 brew install --cask orbstack macfuse onedrive
 
 brew install coreutils zplug zinit pyenv neovim eza ctags
-
-if test ! $(which nix-env); then
-    sh <(curl -L https://nixos.org/nix/install) --no-daemon
-fi
 
 $DIR/install-packages.sh
 
