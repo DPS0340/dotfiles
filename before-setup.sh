@@ -27,7 +27,7 @@ if test ! $(which brew); then
 fi
 
 if test ! $(which nix-env); then
-    sh <(curl -L https://nixos.org/nix/install) --no-daemon
+    curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 fi
 
 echo "Please restart the terminal emulator!!!"
