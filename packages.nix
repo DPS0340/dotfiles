@@ -42,4 +42,5 @@ with import <nixpkgs> {};
 	unzip
 	imgcat
 	python3
+	direnv
 ]
