@@ -44,7 +44,7 @@ ln -s "~/.wine/drive_c/users/dps0340/Documents/KakaoTalk Downloads" ~/kakaotalk-
 
 brew install --cask orbstack macfuse onedrive
 
-brew install coreutils zplug zinit pyenv neovim eza ctags
+brew install coreutils zplug zinit pyenv neovim eza ctags thefuck
 
 $DIR/install-packages.sh
 
