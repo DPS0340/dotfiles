@@ -243,6 +243,7 @@ alias ff='git config pull.ff only'
 export PATH="/Users/lee/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
+eval "$(direnv hook zsh)"
 
 alias k=kubectl
 autoload -U +X compinit && compinit
@@ -253,11 +254,4 @@ alias gap='git add -p'
 
 tmux new
 
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
