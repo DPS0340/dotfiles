@@ -11,4 +11,7 @@
 !thefuck
 !thefuck/*
 !thefuck/**/*
+!k9s
+!k9s/*
+!k9s/**/*
 **/__pycache__
