@@ -15,3 +15,5 @@ fi
 if [ "$(uname)" == "Linux" ]; then
 	nix-env -i -f linux-packages.nix
 fi
+
+go install golang.org/x/tools/gopls@latest
