@@ -253,5 +253,3 @@ unalias gap
 alias gap='git add -p'
 
 tmux new
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
