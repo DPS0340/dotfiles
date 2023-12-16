@@ -27,3 +27,7 @@
 	default = current
 [pull]
 	default = current
+[credential "https://github.com"]
+	helper = !/home/dps0340/.nix-profile/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/home/dps0340/.nix-profile/bin/gh auth git-credential
