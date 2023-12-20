@@ -12,7 +12,8 @@ sudo -v
 chsh -s $(which zsh)
 
 nvim +'PlugInstall --sync' +qa
-
-gh auth login
+nvim +'CocInstall coc-yaml coc-rust-analyzer coc-pyright coc-json coc-go' +qa
 
 python3 -c "$(wget -q -O - https://raw.githubusercontent.com/wakatime/vim-wakatime/master/scripts/install_cli.py)"
+
+gh auth login
