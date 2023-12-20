@@ -7,39 +7,39 @@
         "updateTime": 1675772390553
       },
       "https://json.schemastore.org/package.json": {
-        "etag": "\"0cbc4ae1193d91:0\"",
+        "etag": "\"80e4d0496aead91:0\"",
         "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
-        "updateTime": 1687229575279
+        "updateTime": 1702975024738
       },
       "https://json.schemastore.org/ava.json": {
         "etag": "\"80cdbd40989d91:0\"",
         "fileName": "635f57185b22bce9d3a56c68f5da4ad7.schema.json",
-        "updateTime": 1687229575902
+        "updateTime": 1702975025275
       },
       "https://json.schemastore.org/jscpd.json": {
         "etag": "\"80bec5ba1984d81:0\"",
         "fileName": "22bfc1ab1ff56aae62322f6ce45dab5a.schema.json",
-        "updateTime": 1687229575894
+        "updateTime": 1702975025279
       },
       "https://json.schemastore.org/semantic-release.json": {
         "etag": "\"808cdec3a9a4d81:0\"",
         "fileName": "fbc95702ba6eddb3e2de4f52e31ca82a.schema.json",
-        "updateTime": 1687229575882
+        "updateTime": 1702975025273
       },
       "https://json.schemastore.org/eslintrc.json": {
-        "etag": "\"09c10cf5f2bd91:0\"",
+        "etag": "\"07450c3802fda1:0\"",
         "fileName": "c5064f140d4cfdbf4d6fbe68f68abbb1.schema.json",
-        "updateTime": 1687229575900
+        "updateTime": 1702975025297
       },
       "https://json.schemastore.org/stylelintrc.json": {
-        "etag": "\"0fb2abcd297d91:0\"",
+        "etag": "\"0d52dd6eabd91:0\"",
         "fileName": "000bfbdd14d2fb8ec5b0d59bec32ef98.schema.json",
-        "updateTime": 1687229575898
+        "updateTime": 1702975025286
       },
       "https://json.schemastore.org/prettierrc.json": {
-        "etag": "\"80e08ca9849bd81:0\"",
+        "etag": "\"808da9985916da1:0\"",
         "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
-        "updateTime": 1687229575948
+        "updateTime": 1702975025289
       },
       "https://json.schemastore.org/lerna.json": {
         "etag": "\"802ce8fe316ad81:0\"",
@@ -47,14 +47,19 @@
         "updateTime": 1686117198915
       },
       "https://json.schemastore.org/tsconfig.json": {
-        "etag": "\"034bc39c6a2d91:0\"",
+        "etag": "\"80f4658d4a12da1:0\"",
         "fileName": "a28507e42e8bfd5fba830538461d5db3.schema.json",
-        "updateTime": 1689641996700
+        "updateTime": 1702383127165
       },
       "https://json.schemastore.org/nest-cli": {
         "etag": "\"058aaf85ca4d91:0\"",
         "fileName": "71f7cb72efcdb4198bbe557caba30dce.schema.json",
         "updateTime": 1689641993350
+      },
+      "https://json.schemastore.org/babelrc.json": {
+        "etag": "\"8016fd5f60d0d91:0\"",
+        "fileName": "ce32cad38c30a5a623bc5807f2a9141d.schema.json",
+        "updateTime": 1703052742074
       }
     }
   },
