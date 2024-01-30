@@ -242,6 +242,8 @@ alias ff='git config pull.ff only'
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/lee/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+#
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 eval "$(direnv hook zsh)"
 
