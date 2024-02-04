@@ -3,9 +3,10 @@
 # Enable debug output
 PS4="\n\033[1;33m>>\033[0m "; set -x
 
-nix-channel --add https://nixos.org/channels/nixos-23.11
+nix-channel --add https://nixos.org/channels/nixos-unstable
 
 export NIXPKGS_ALLOW_UNFREE=1
+export NIXPKGS_ALLOW_INSECURE=1
 nix-env -i -f packages.nix
 
 if [ "$(uname)" == "Darwin" ]; then
