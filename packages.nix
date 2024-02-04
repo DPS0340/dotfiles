@@ -7,6 +7,7 @@ with import <nixpkgs> {};
 	fira-code
 	zsh
 	zplug
+	neovim
 	neovide
 	tldr
 	gh
