@@ -229,6 +229,10 @@ function killport () {
 	lsof -t -i:$1 | xargs kill -9
 }
 
+function sshloop () {
+	while ! ssh $1; do sleep 1; done
+}
+
 export TERM=xterm-256color
 export EDITOR="nvim"
 export K9S_EDITOR="nvim"
