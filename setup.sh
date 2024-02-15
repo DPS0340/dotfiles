@@ -14,17 +14,17 @@ datetime=$(date +'%Y-%m-%d_%H:%M:%S')
 mv ~/.vimrc ~/.vimrc.bak-$datetime
 mv ~/.zshrc ~/.zshrc.bak-$datetime
 mv ~/.p10k.zsh ~/.p10k.zsh.bak-$datetime
-mv ~/.config ~/.config.zsh.bak-$datetime
-mv ~/.zsh ~/.zsh.zsh.bak-$datetime
-mv ~/.xprofile ~/.xprofile.zsh.bak-$datetime
-mv ~/.zprofile ~/.zprofile.zsh.bak-$datetime
-mv ~/.plugin ~/.zplugin.zsh.bak-$datetime
-mv ~/.vim_runtime ~/.vim_runtime.zsh.bak-$datetime
+mv ~/.config ~/.config.bak-$datetime
+mv ~/.zsh ~/.zsh.bak-$datetime
+mv ~/.xprofile ~/.xprofile.bak-$datetime
+mv ~/.zprofile ~/.zprofile.bak-$datetime
+mv ~/.plugin ~/.zplugin.bak-$datetime
+mv ~/.vim_runtime ~/.vim_runtime.bak-$datetime
 mv ~/.tmux ~/.tmux.bak-$datetime
 mv ~/.tmux.conf ~/.tmux.conf.bak-$datetime
-mv ~/.gitconfig ~/.gitconfig-$datetime
-mv ~/.gitignore ~/.gitignore-$datetime
-mv ~/kakaotalk-downloads ~/kakaotalk-downloads-$datetime
+mv ~/.gitconfig ~/.gitconfig.bak-$datetime
+mv ~/.gitignore ~/.gitignore.bak-$datetime
+mv ~/kakaotalk-downloads ~/kakaotalk-downloads.bak-$datetime
 
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
