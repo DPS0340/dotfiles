@@ -23,6 +23,7 @@ with import <nixpkgs> {};
 	go
 	obsidian
 	kubectl
+	kubectx
 	rustc
 	vscode
 	nerdfonts
