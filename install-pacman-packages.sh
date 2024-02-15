@@ -7,4 +7,4 @@ LOCATION=$(realpath "$0")
 DIR=$(dirname "$LOCATION")
 
 yay -S powerpill
-sudo pacman -Syu vi vim neovim wol gcc python curl wget docker docker-compose man firefox chromium xsel --noconfirm
+sudo pacman -Syu vi vim neovim wol gcc python curl wget docker docker-compose man firefox chromium xsel nerd-fonts --noconfirm

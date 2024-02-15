@@ -22,6 +22,7 @@ mv ~/.plugin ~/.zplugin.bak-$datetime
 mv ~/.vim_runtime ~/.vim_runtime.bak-$datetime
 mv ~/.tmux ~/.tmux.bak-$datetime
 mv ~/.tmux.conf ~/.tmux.conf.bak-$datetime
+mv ~/.wezterm.lua ~/.wezterm.lua.bak-$datetime
 mv ~/.gitconfig ~/.gitconfig.bak-$datetime
 mv ~/.gitignore ~/.gitignore.bak-$datetime
 mv ~/kakaotalk-downloads ~/kakaotalk-downloads.bak-$datetime
@@ -37,12 +38,16 @@ ln -s $DIR/zplugin ~/.zplugin
 ln -s $DIR/p10k.zsh ~/.p10k.zsh
 ln -s $DIR/tmux ~/.tmux
 ln -s $DIR/tmux.conf ~/.tmux.conf
+ln -s $DIR/wezterm.lua ~/.wezterm.lua
 ln -s $DIR/gitconfig ~/.gitconfig
 ln -s $DIR/gitignore ~/.gitignore
 
 ln -s "~/.wine/drive_c/users/dps0340/Documents/KakaoTalk Downloads" ~/kakaotalk-downloads
 
 brew install --cask orbstack macfuse onedrive
+
+brew tap homebrew/cask-fonts
+brew install font-jetbrains-mono-nerd-font
 
 brew install coreutils zplug zinit pyenv neovim eza ctags thefuck
 
