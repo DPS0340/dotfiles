@@ -8,6 +8,8 @@ sudo chown $USER pdf
 sudo chown $USER 논문
 sudo chown $USER pdf
 
-nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --allow-root --default-permissions --vfs-cache-mode full onedrive:pdf ~/pdf &
-nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --allow-root --default-permissions --vfs-cache-mode full onedrive:논문 ~/논문 &
-nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --allow-root --default-permissions --vfs-cache-mode full onedrive:auth ~/auth &
+touch nohup.out
+
+nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --allow-root --default-permissions --vfs-cache-mode full onedrive:pdf ~/pdf >> ~/dotfiles/nohup.out 2>&1 &
+nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --allow-root --default-permissions --vfs-cache-mode full onedrive:논문 ~/논문 >> ~/dotfiles/nohup.out 2>&1 &
+nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --allow-root --default-permissions --vfs-cache-mode full onedrive:auth ~/auth >> ~/dotfiles/nohup.out 2>&1 &
