@@ -214,9 +214,9 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 set -o vi
 # bindkey -v
 
-alias ls='eza -alh -snew'
-alias ll='eza -alh -snew'
-alias l='eza -alh -snew'
+alias ls='eza -alh'
+alias ll='eza -alh'
+alias l='eza -alh'
 
 unalias la
 alias la='eza -alh'
