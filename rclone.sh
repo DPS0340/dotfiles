@@ -4,9 +4,9 @@ sudo umount -lf ~/pdf
 sudo umount -lf ~/논문
 sudo umount -lf ~/auth
 
-sudo chown $USER pdf
-sudo chown $USER 논문
-sudo chown $USER pdf
+sudo chown $USER ~/pdf
+sudo chown $USER ~/논문
+sudo chown $USER ~/auth
 
 touch nohup.out
 
