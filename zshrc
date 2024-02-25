@@ -119,8 +119,6 @@ alias nvd=$neovideAlias
 alias nv=$neovideAlias
 alias gvim=$neovideAlias
 
-alias pacman='sudo powerpill'
-
 unset neovideAlias
 
 alias cl='clear'
