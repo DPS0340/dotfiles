@@ -10,7 +10,7 @@ fi
 
 
 # export DISPLAY=':0.0'
-export XAUTHORITY=~/.Xauthority
+# export XAUTHORITY=~/.Xauthority
 
 export ZSH="$HOME/.zplugin/plugins/robbyrussell---oh-my-zsh/"
 
@@ -255,5 +255,7 @@ source <(kubectl completion zsh)
 
 unalias gap
 alias gap='git add -p'
+
+# unset DISPLAY
 
 tmux new
