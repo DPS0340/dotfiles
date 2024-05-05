@@ -48,6 +48,7 @@ alias glmm='git pull mine main'
 alias glod='git pull origin dev'
 alias glmd='git pull mine dev'
 alias gllo='git pull origin'
+alias gllm='git pull mine'
 
 alias gpom='git push origin main || git push origin master'
 alias gpmm='git push mine main || git push origin master'
