@@ -45,4 +45,5 @@ with import <nixpkgs> {};
 	imgcat
 	python3
 	direnv
+	opentofu
 ]
