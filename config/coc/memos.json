@@ -7,39 +7,39 @@
         "updateTime": 1675772390553
       },
       "https://json.schemastore.org/package.json": {
-        "etag": "\"80e4d0496aead91:0\"",
+        "etag": "\"0a624b1156da1:0\"",
         "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
-        "updateTime": 1702975024738
+        "updateTime": 1717768188050
       },
       "https://json.schemastore.org/ava.json": {
-        "etag": "\"80cdbd40989d91:0\"",
+        "etag": "\"0d33f13698ada1:0\"",
         "fileName": "635f57185b22bce9d3a56c68f5da4ad7.schema.json",
-        "updateTime": 1702975025275
+        "updateTime": 1717768188672
       },
       "https://json.schemastore.org/jscpd.json": {
-        "etag": "\"80bec5ba1984d81:0\"",
+        "etag": "\"09e8ecc624ada1:0\"",
         "fileName": "22bfc1ab1ff56aae62322f6ce45dab5a.schema.json",
-        "updateTime": 1702975025279
+        "updateTime": 1717768188627
       },
       "https://json.schemastore.org/semantic-release.json": {
-        "etag": "\"808cdec3a9a4d81:0\"",
+        "etag": "\"09e8ecc624ada1:0\"",
         "fileName": "fbc95702ba6eddb3e2de4f52e31ca82a.schema.json",
-        "updateTime": 1702975025273
+        "updateTime": 1717768188584
       },
       "https://json.schemastore.org/eslintrc.json": {
-        "etag": "\"07450c3802fda1:0\"",
+        "etag": "\"805385dd39b8da1:0\"",
         "fileName": "c5064f140d4cfdbf4d6fbe68f68abbb1.schema.json",
-        "updateTime": 1702975025297
+        "updateTime": 1717768188673
       },
       "https://json.schemastore.org/stylelintrc.json": {
-        "etag": "\"0d52dd6eabd91:0\"",
+        "etag": "\"802db6e3f81da1:0\"",
         "fileName": "000bfbdd14d2fb8ec5b0d59bec32ef98.schema.json",
-        "updateTime": 1702975025286
+        "updateTime": 1717768188674
       },
       "https://json.schemastore.org/prettierrc.json": {
-        "etag": "\"808da9985916da1:0\"",
+        "etag": "\"079e10ba4ada1:0\"",
         "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
-        "updateTime": 1702975025289
+        "updateTime": 1717768188652
       },
       "https://json.schemastore.org/lerna.json": {
         "etag": "\"802ce8fe316ad81:0\"",
@@ -60,6 +60,16 @@
         "etag": "\"8016fd5f60d0d91:0\"",
         "fileName": "ce32cad38c30a5a623bc5807f2a9141d.schema.json",
         "updateTime": 1703052742074
+      },
+      "https://json.schemastore.org/partial-eslint-plugins.json": {
+        "etag": "\"069662d6d91da1:0\"",
+        "fileName": "fc7bb6e733b774ce47be6006f0b75b87.schema.json",
+        "updateTime": 1717768189451
+      },
+      "https://turbo.build/schema.json": {
+        "etag": "W/\"89a42d971ab0f6c7b09851b810ce76cf\"",
+        "fileName": "0226f33021d03cf4989a441e813553f2.schema.json",
+        "updateTime": 1717770400819
       }
     }
   },
