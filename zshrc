@@ -222,6 +222,8 @@ alias la='eza -alh'
 
 alias sl='eza -alh'
 
+alias ls_='/bin/ls'
+
 alias kill6443='lsof -t -i:6443 | xargs kill -9'
 
 function killport () {
