@@ -18,6 +18,8 @@ with import <nixpkgs> {};
 	thefuck
 	nodejs
 	gcc
+	glibc
+	libiconv
 	fzf
 	gnupg
 	go
