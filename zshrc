@@ -234,6 +234,12 @@ function sshloop () {
 	while ! ssh $1; do sleep 1; done
 }
 
+function set-upstream () {
+	remote=${1:-origin)
+	branch=$(git rev-parse --abbrev-ref HEAD)
+	git branch --set-upstream-to=$remote/$branch $branch
+}
+
 export TERM=xterm-256color
 export EDITOR="nvim"
 export K9S_EDITOR="nvim"
