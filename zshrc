@@ -226,6 +226,14 @@ alias ls_='/bin/ls'
 
 alias kill6443='lsof -t -i:6443 | xargs kill -9'
 
+# https://github.com/nodejs/corepack/blob/main/README.md
+alias yarn="corepack yarn"
+alias yarnpkg="corepack yarnpkg"
+alias pnpm="corepack pnpm"
+alias pnpx="corepack pnpx"
+alias npm="corepack npm"
+alias npx="corepack npx"
+
 function killport () {
 	lsof -t -i:$1 | xargs kill -9
 }
@@ -268,3 +276,14 @@ alias gap='git add -p'
 # unset DISPLAY
 
 tmux new
+
+export YVM_DIR=/Users/lee/.yvm
+[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+
+# bun completions
+[ -s "/Users/lee/.bun/_bun" ] && source "/Users/lee/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="/opt/homebrew/opt/libiconv/bin:$PATH"
