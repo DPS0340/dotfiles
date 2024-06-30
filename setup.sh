@@ -53,6 +53,8 @@ brew install coreutils zplug zinit pyenv neovim eza ctags thefuck
 
 $DIR/install-packages.sh
 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 curl -s "https://get.sdkman.io" | bash
 
 export SDKMAN_DIR="$HOME/.sdkman"
