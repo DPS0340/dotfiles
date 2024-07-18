@@ -43,15 +43,15 @@ source $HOME/.zsh/BlaCk-Void.zshrc
 
 alias rr='source ~/.zshrc'
 
-alias glom='git pull origin main'
-alias glmm='git pull mine main'
+alias glom='git pull origin main || git pull origin master'
+alias glmm='git pull mine main || git pull mine master'
 alias glod='git pull origin dev'
 alias glmd='git pull mine dev'
 alias gllo='git pull origin'
 alias gllm='git pull mine'
 
 alias gpom='git push origin main || git push origin master'
-alias gpmm='git push mine main || git push origin master'
+alias gpmm='git push mine main || git push mine master'
 alias gpod='git push origin dev'
 alias gpmd='git push mine dev'
 alias gpo='git push origin'
@@ -70,6 +70,11 @@ alias grm='git reset --mixed'
 alias grh='git reset --hard'
 
 alias gclfx='git clean -fx'
+
+alias gst='git stash'
+alias gsta='git stash apply'
+alias gstl='git stash list'
+alias gsts='git stash show'
 
 function grsa () {
 	git restore --staged $1
@@ -243,7 +248,7 @@ function sshloop () {
 }
 
 function set-upstream () {
-	remote=${1:-origin)
+	remote=${1:-origin}
 	branch=$(git rev-parse --abbrev-ref HEAD)
 	git branch --set-upstream-to=$remote/$branch $branch
 }
@@ -286,4 +291,5 @@ export YVM_DIR=/Users/lee/.yvm
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-export PATH="/opt/homebrew/opt/libiconv/bin:$PATH"
+export PATH="/usr/bin:$PATH"
+eval "$(~/.local/bin/mise activate zsh)"
