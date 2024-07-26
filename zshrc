@@ -278,6 +278,8 @@ source <(kubectl completion zsh)
 unalias gap
 alias gap='git add -p'
 
+export CMAKE_C_COMPILER=/usr/bin/gcc
+
 # unset DISPLAY
 
 tmux new
