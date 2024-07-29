@@ -287,6 +287,11 @@ tmux new
 export YVM_DIR=/Users/lee/.yvm
 [ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
 
+# kubectl aliases
+alias k-explain='kubectl explain --recursive'
+alias k-use='kubectl config use'
+export do='-o yaml --dry-run=client'
+
 # bun completions
 [ -s "/Users/lee/.bun/_bun" ] && source "/Users/lee/.bun/_bun"
 
