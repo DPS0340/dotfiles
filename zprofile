@@ -1,4 +1,4 @@
-if [ "$(mount -l | grep "pdf")" = "" ]; then
+if [ "$(uname)" = "Linux" ] && [ "$(mount -l | grep "pdf")" = "" ]; then
 	~/dotfiles/rclone.sh
 fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
