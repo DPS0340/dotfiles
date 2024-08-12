@@ -3,7 +3,7 @@
 # Enable debug output
 PS4="\n\033[1;33m>>\033[0m "; set -x
 
-mkdir ~/pdf ~/논문 ~/auth > /dev/null 2>&1
+mkdir ~/pdf ~/paper ~/auth > /dev/null 2>&1
 
 sudo umount -lf ~/pdf
 sudo umount -lf ~/paper
