@@ -5,7 +5,7 @@
 	autocrlf = input
 	editor = nvim
 	pager = less -F -X
-	excludesFile = /Users/lee/.gitignore
+	excludesFile = $HOME/.gitignore
 [init]
 	defaultBranch = main
 [filter "lfs"]
@@ -28,6 +28,6 @@
 [pull]
 	default = current
 [credential "https://github.com"]
-	helper = !/Users/lee/.nix-profile/bin/gh auth git-credential
+	helper = !$HOME/.nix-profile/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = !/Users/lee/.nix-profile/bin/gh auth git-credential
+	helper = !$HOME/.nix-profile/bin/gh auth git-credential
