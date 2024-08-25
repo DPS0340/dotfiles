@@ -37,7 +37,7 @@ with import <nixpkgs> {};
 	rclone
 	unixtools.nettools
 	awscli2
-	yq
+	yq-go
 	jq
 	tmux
 	lsof
