@@ -9,4 +9,6 @@ config.color_scheme = "Catppuccin Mocha"
 config.font = wezterm.font "JetBrainsMono Nerd Font"
 config.font_size = 9.5
 
+config.audible_bell = "Disabled"
+
 return config
