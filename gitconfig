@@ -31,3 +31,5 @@
 	helper = !$HOME/.nix-profile/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = !$HOME/.nix-profile/bin/gh auth git-credential
+[submodule]
+	recurse = true
