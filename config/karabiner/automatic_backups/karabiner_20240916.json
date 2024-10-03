@@ -5,6 +5,7 @@
                 "rules": [
                     {
                         "description": "Esc to ABC",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": { "key_code": "escape" },
@@ -23,6 +24,7 @@
                     },
                     {
                         "description": "Change fn + W/A/S/D to Arrow Keys",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
