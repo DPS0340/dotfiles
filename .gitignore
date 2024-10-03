@@ -5,3 +5,4 @@ nohup.out
 nohup*.out
 yay-bin
 tags
+config/coc/extensions/coc-rust-analyzer-data/rust-analyzer
