@@ -1,4 +1,5 @@
 k9s:
+  liveViewAutoRefresh: false
   refreshRate: 2
   maxConnRetry: 5
   enableMouse: true
@@ -16,21 +17,20 @@ k9s:
     fullScreenLogs: false
     textWrap: false
     showTime: false
-  currentContext: kubernetes-admin@cluster.poc
-  currentCluster: cluster.poc
+  currentContext: default
+  currentCluster: default
   clusters:
-    cluster.poc:
+    default:
       namespace:
-        active: monitoring
+        active: default
         lockFavorites: false
         favorites:
         - all
-        - monitoring
-        - rook-ceph
-        - yennefer
+        - redis-operator
+        - kube-system
         - default
       view:
-        active: sec
+        active: svc
       featureGates:
         nodeShell: false
       shellPod:
