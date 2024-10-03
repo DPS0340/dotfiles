@@ -7,39 +7,39 @@
         "updateTime": 1675772390553
       },
       "https://json.schemastore.org/package.json": {
-        "etag": "\"0a624b1156da1:0\"",
+        "etag": "\"807a7b1d2ebcda1:0\"",
         "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
-        "updateTime": 1717768188050
+        "updateTime": 1727419384726
       },
       "https://json.schemastore.org/ava.json": {
         "etag": "\"0d33f13698ada1:0\"",
         "fileName": "635f57185b22bce9d3a56c68f5da4ad7.schema.json",
-        "updateTime": 1717768188672
+        "updateTime": 1727419385266
       },
       "https://json.schemastore.org/jscpd.json": {
         "etag": "\"09e8ecc624ada1:0\"",
         "fileName": "22bfc1ab1ff56aae62322f6ce45dab5a.schema.json",
-        "updateTime": 1717768188627
+        "updateTime": 1727419385260
       },
       "https://json.schemastore.org/semantic-release.json": {
         "etag": "\"09e8ecc624ada1:0\"",
         "fileName": "fbc95702ba6eddb3e2de4f52e31ca82a.schema.json",
-        "updateTime": 1717768188584
+        "updateTime": 1727419385254
       },
       "https://json.schemastore.org/eslintrc.json": {
         "etag": "\"805385dd39b8da1:0\"",
         "fileName": "c5064f140d4cfdbf4d6fbe68f68abbb1.schema.json",
-        "updateTime": 1717768188673
+        "updateTime": 1727419385270
       },
       "https://json.schemastore.org/stylelintrc.json": {
-        "etag": "\"802db6e3f81da1:0\"",
+        "etag": "\"0f936ae3e1db1:0\"",
         "fileName": "000bfbdd14d2fb8ec5b0d59bec32ef98.schema.json",
-        "updateTime": 1717768188674
+        "updateTime": 1727419385263
       },
       "https://json.schemastore.org/prettierrc.json": {
         "etag": "\"079e10ba4ada1:0\"",
         "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
-        "updateTime": 1717768188652
+        "updateTime": 1727419385268
       },
       "https://json.schemastore.org/lerna.json": {
         "etag": "\"802ce8fe316ad81:0\"",
@@ -62,9 +62,9 @@
         "updateTime": 1703052742074
       },
       "https://json.schemastore.org/partial-eslint-plugins.json": {
-        "etag": "\"069662d6d91da1:0\"",
+        "etag": "\"01dc33f55f4da1:0\"",
         "fileName": "fc7bb6e733b774ce47be6006f0b75b87.schema.json",
-        "updateTime": 1717768189451
+        "updateTime": 1727419385797
       },
       "https://turbo.build/schema.json": {
         "etag": "W/\"89a42d971ab0f6c7b09851b810ce76cf\"",
@@ -1907,6 +1907,6 @@
     }
   },
   "coc-rust-analyzer|global": {
-    "release": "2024-01-29"
+    "release": "2024-08-27"
   }
 }
