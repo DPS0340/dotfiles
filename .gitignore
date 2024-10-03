@@ -4,3 +4,4 @@ tmux/*.log
 nohup.out
 nohup*.out
 yay-bin
+tags
