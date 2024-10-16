@@ -302,3 +302,5 @@ export PATH="/usr/bin:$PATH"
 eval "$(~/.local/bin/mise activate zsh)"
 
 export HISTTIMEFORMAT="%F %T -- "
+
+export HOMEBREW_NO_AUTO_UPDATE=1
