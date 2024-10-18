@@ -48,4 +48,5 @@ with import <nixpkgs> {};
 	python3
 	direnv
 	opentofu
+    zoxide
 ]
