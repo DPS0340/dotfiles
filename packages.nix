@@ -3,7 +3,7 @@ with import <nixpkgs> {};
 	coreutils-full
 	terraform
 	openssh
-	ansible_2_13
+	ansible
 	fira-code
 	zsh
 	zplug
