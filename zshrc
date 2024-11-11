@@ -301,6 +301,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # export PATH="/usr/bin:$PATH"
 eval "$(~/.local/bin/mise activate zsh)"
 
+# Workaround for ssh hostname duplication on macos
+alias ssh="/usr/bin/ssh"
+
 export HISTTIMEFORMAT="%F %T -- "
 
 export HOMEBREW_NO_AUTO_UPDATE=1
