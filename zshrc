@@ -307,3 +307,8 @@ alias ssh="/usr/bin/ssh"
 export HISTTIMEFORMAT="%F %T -- "
 
 export HOMEBREW_NO_AUTO_UPDATE=1
+
+fpath+=$HOME/.zsh/pure
+
+autoload -U promptinit; promptinit
+prompt pure
