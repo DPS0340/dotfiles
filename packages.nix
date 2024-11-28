@@ -49,4 +49,5 @@ with import <nixpkgs> {};
 	direnv
 	opentofu
     zoxide
+	htop
 ]
