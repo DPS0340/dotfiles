@@ -30,4 +30,6 @@ if test ! $(which nix-env); then
     curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 fi
 
+setxkbmap -option ctrl:nocaps
+
 echo "Please restart the terminal emulator!!!"
