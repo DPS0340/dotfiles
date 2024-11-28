@@ -5,13 +5,13 @@ PS4="\n\033[1;33m>>\033[0m "; set -x
 
 mkdir ~/pdf ~/paper ~/auth > /dev/null 2>&1
 
-sudo umount ~/pdf
-sudo umount ~/paper
-sudo umount ~/auth
+umount ~/pdf
+umount ~/paper
+umount ~/auth
 
-sudo chown $USER ~/pdf
-sudo chown $USER ~/paper
-sudo chown $USER ~/auth
+chown $USER ~/pdf
+chown $USER ~/paper
+chown $USER ~/auth
 
 UID=$(id -u $USER)
 GID=$(id -g $USER)
