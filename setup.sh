@@ -35,6 +35,7 @@ ln -s $DIR/zsh ~/.zsh
 ln -s $DIR/xprofile ~/.xprofile
 ln -s $DIR/zprofile ~/.zprofile
 ln -s $DIR/zplugin ~/.zplugin
+ln -s $DIR/zshenv ~/.zshenv
 ln -s $DIR/p10k.zsh ~/.p10k.zsh
 ln -s $DIR/tmux ~/.tmux
 ln -s $DIR/tmux.conf ~/.tmux.conf
