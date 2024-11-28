@@ -8,6 +8,7 @@ fi
 # autoload -Uz compinstall && compinstall
 # autoload -Uz compinit && compinit
 
+setxkbmap -option ctrl:nocaps
 
 # export DISPLAY=':0.0'
 # export XAUTHORITY=~/.Xauthority
@@ -312,3 +313,4 @@ fpath+=$HOME/.zsh/pure
 
 autoload -U promptinit; promptinit
 prompt pure
+
