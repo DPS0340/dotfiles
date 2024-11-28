@@ -50,4 +50,6 @@ with import <nixpkgs> {};
 	opentofu
     zoxide
 	htop
+	slack
+	playonlinux
 ]
