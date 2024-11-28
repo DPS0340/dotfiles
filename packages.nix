@@ -52,4 +52,5 @@ with import <nixpkgs> {};
 	htop
 	slack
 	playonlinux
+	pure-prompt
 ]
