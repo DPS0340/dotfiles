@@ -1,6 +1,9 @@
 if [ "$(uname)" = "Linux" ] && [ "$(mount -l | grep "pdf")" = "" ]; then
 	~/dotfiles/rclone.sh
 fi
+
+setxkbmap -option ctrl:nocaps
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Added by OrbStack: command-line tools and integration
