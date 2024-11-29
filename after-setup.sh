@@ -30,3 +30,6 @@ gh auth login
 
 kubectl krew install ctx
 kubectl krew install ns
+
+(crontab -l 2>/dev/null; cat $DIR/crontab)| crontab -
+
