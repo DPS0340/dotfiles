@@ -49,4 +49,8 @@ with import <nixpkgs> {};
 	direnv
 	opentofu
     zoxide
+	htop
+	slack
+	playonlinux
+	pure-prompt
 ]
