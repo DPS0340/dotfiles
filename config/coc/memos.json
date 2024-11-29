@@ -7,39 +7,39 @@
         "updateTime": 1675772390553
       },
       "https://json.schemastore.org/package.json": {
-        "etag": "\"807a7b1d2ebcda1:0\"",
+        "etag": "\"8027545973adb1:0\"",
         "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
-        "updateTime": 1727419384726
+        "updateTime": 1732754263235
       },
       "https://json.schemastore.org/ava.json": {
         "etag": "\"0d33f13698ada1:0\"",
         "fileName": "635f57185b22bce9d3a56c68f5da4ad7.schema.json",
-        "updateTime": 1727419385266
+        "updateTime": 1732754263785
       },
       "https://json.schemastore.org/jscpd.json": {
-        "etag": "\"09e8ecc624ada1:0\"",
+        "etag": "\"06c7f331a12db1:0\"",
         "fileName": "22bfc1ab1ff56aae62322f6ce45dab5a.schema.json",
-        "updateTime": 1727419385260
+        "updateTime": 1732754263774
       },
       "https://json.schemastore.org/semantic-release.json": {
         "etag": "\"09e8ecc624ada1:0\"",
         "fileName": "fbc95702ba6eddb3e2de4f52e31ca82a.schema.json",
-        "updateTime": 1727419385254
+        "updateTime": 1732754263776
       },
       "https://json.schemastore.org/eslintrc.json": {
         "etag": "\"805385dd39b8da1:0\"",
         "fileName": "c5064f140d4cfdbf4d6fbe68f68abbb1.schema.json",
-        "updateTime": 1727419385270
+        "updateTime": 1732754263787
       },
       "https://json.schemastore.org/stylelintrc.json": {
-        "etag": "\"0f936ae3e1db1:0\"",
+        "etag": "\"8027545973adb1:0\"",
         "fileName": "000bfbdd14d2fb8ec5b0d59bec32ef98.schema.json",
-        "updateTime": 1727419385263
+        "updateTime": 1732754263791
       },
       "https://json.schemastore.org/prettierrc.json": {
         "etag": "\"079e10ba4ada1:0\"",
         "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
-        "updateTime": 1727419385268
+        "updateTime": 1732754263781
       },
       "https://json.schemastore.org/lerna.json": {
         "etag": "\"802ce8fe316ad81:0\"",
@@ -64,7 +64,7 @@
       "https://json.schemastore.org/partial-eslint-plugins.json": {
         "etag": "\"01dc33f55f4da1:0\"",
         "fileName": "fc7bb6e733b774ce47be6006f0b75b87.schema.json",
-        "updateTime": 1727419385797
+        "updateTime": 1732754264305
       },
       "https://turbo.build/schema.json": {
         "etag": "W/\"89a42d971ab0f6c7b09851b810ce76cf\"",
