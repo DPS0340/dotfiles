@@ -11,6 +11,7 @@ sudo -v
 
 datetime=$(date +'%Y-%m-%d_%H:%M:%S')
 
+mv ~/.vic ~/.vim.bak-$datetime
 mv ~/.vimrc ~/.vimrc.bak-$datetime
 mv ~/.zshrc ~/.zshrc.bak-$datetime
 mv ~/.p10k.zsh ~/.p10k.zsh.bak-$datetime
@@ -27,6 +28,7 @@ mv ~/.gitconfig ~/.gitconfig.bak-$datetime
 mv ~/.gitignore ~/.gitignore.bak-$datetime
 mv ~/kakaotalk-downloads ~/kakaotalk-downloads.bak-$datetime
 
+ln -s $DIR/vim ~/.vim
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
 ln -s $DIR/vim_runtime ~/.vim_runtime
