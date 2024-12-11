@@ -30,6 +30,7 @@ gh auth login
 
 kubectl krew install ctx
 kubectl krew install ns
+kubectl krew install rook-ceph
 
 (crontab -l 2>/dev/null; cat $DIR/crontab)| crontab -
 
