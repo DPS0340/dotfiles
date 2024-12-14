@@ -302,6 +302,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # export PATH="/usr/bin:$PATH"
 eval "$(~/.local/bin/mise activate zsh)"
 
+export PATH="/home/dps0340/programming/POL-POM-4:$PATH"
+
 # Workaround for ssh hostname duplication on macos
 alias ssh="/usr/bin/ssh"
 
