@@ -293,6 +293,8 @@ alias k-explain='kubectl explain --recursive'
 alias k-use='kubectl config use'
 export do='-o yaml --dry-run=client'
 
+alias kaff='kubectl apply --server-side --force-conflicts -f'
+
 # bun completions
 [ -s "/Users/lee/.bun/_bun" ] && source "/Users/lee/.bun/_bun"
 
