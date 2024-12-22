@@ -241,7 +241,7 @@ alias npm="corepack npm"
 alias npx="corepack npx"
 
 function killport () {
-	lsof -t -i:$1 | xargs kill -9
+	sudo lsof -t -i:$1 | sudo xargs kill -9
 }
 
 function sshloop () {
