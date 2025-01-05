@@ -53,4 +53,6 @@ with import <nixpkgs> {};
 	slack
 	playonlinux
 	pure-prompt
+	libxcrypt
+	brave
 ]
