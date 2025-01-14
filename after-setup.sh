@@ -31,6 +31,8 @@ gh auth login
 kubectl krew install ctx
 kubectl krew install ns
 kubectl krew install rook-ceph
+kubectl krew install view-secret
+kubectl krew install view-cert
 
 (crontab -l 2>/dev/null; cat $DIR/crontab)| crontab -
 
