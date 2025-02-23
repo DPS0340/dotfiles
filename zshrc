@@ -77,9 +77,6 @@ alias gsta='git stash apply'
 alias gstl='git stash list'
 alias gsts='git stash show'
 
-alias mamba='micromamba'
-alias conda='micromamba'
-
 function grsa () {
 	git restore --staged $1
 	git restore $1
@@ -316,10 +313,14 @@ export HISTTIMEFORMAT="%F %T -- "
 
 export HOMEBREW_NO_AUTO_UPDATE=1
 
+# Fixes below error on ansible
+# https://github.com/NixOS/nixpkgs/issues/223151#issuecomment-1521702680
+export LC_ALL=C.UTF-8
+
 fpath+=$HOME/.zsh/pure
 
 autoload -U promptinit; promptinit
-prompt pure
+# prompt pure
 
 
 # >>> mamba initialize >>>
@@ -334,3 +335,10 @@ else
 fi
 unset __mamba_setup
 # <<< mamba initialize <<<
+
+
+alias mamba='micromamba'
+alias conda='micromamba'
+
+# Created by `pipx` on 2025-01-09 03:05:54
+export PATH="$PATH:/home/dps0340/.local/bin"
