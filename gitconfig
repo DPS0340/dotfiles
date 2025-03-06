@@ -6,6 +6,45 @@
 	editor = nvim
 	pager = less -F -X
 	excludesFile = $HOME/.gitignore
+    fsmonitor = true
+    untrackedCache = true
+[column]
+    ui = auto
+[branch]
+    sort = -committerdate
+[tag]
+    sort = version:refname
+[init]
+    defaultBranch = main
+[diff]
+    algorithm = histogram
+    colorMoved = plain
+    mnemonicPrefix = true
+    renames = true
+[push]
+    default = current
+    autoSetupRemote = true
+    followTags = true
+[fetch]
+    prune = true
+    pruneTags = true
+    all = true
+[merge]
+    conflictstyle = zdiff3 
+[pull]
+    rebase = true
+	default = current
+[help]
+    autocorrect = prompt
+[commit]
+    verbose = true
+[rerere]
+    enabled = true
+    autoupdate = true
+[rebase]
+    autoSquash = true
+    autoStash = true
+    updateRefs = true
 [init]
 	defaultBranch = main
 [filter "lfs"]
@@ -22,11 +61,6 @@
     --abbrev-commit \
     --pretty=format:'%Cred%h %Creset-%C(yellow)%d %Creset%s %Cgreen(%cr)%C(bold blue)<%an>'"
 	clr = "clean -fx"
-
-[push]
-	default = current
-[pull]
-	default = current
 [credential "https://github.com"]
 	helper = !$HOME/.nix-profile/bin/gh auth git-credential
 [credential "https://gist.github.com"]
