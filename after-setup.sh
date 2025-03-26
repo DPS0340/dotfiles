@@ -33,6 +33,7 @@ kubectl krew install ns
 kubectl krew install rook-ceph
 kubectl krew install view-secret
 kubectl krew install view-cert
+kubectl krew install neat
 
 (crontab -l 2>/dev/null; cat $DIR/crontab)| crontab -
 
