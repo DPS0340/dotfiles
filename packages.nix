@@ -55,4 +55,5 @@ with import <nixpkgs> {};
 	pure-prompt
 	libxcrypt
 	brave
+    kubetail
 ]
