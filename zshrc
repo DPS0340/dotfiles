@@ -281,6 +281,10 @@ alias gap='git add -p'
 
 export CMAKE_C_COMPILER=/usr/bin/gcc
 
+export TF_REGISTRY_CLIENT_TIMEOUT=3600
+
+alias tf=tofu
+
 # unset DISPLAY
 
 tmux new
