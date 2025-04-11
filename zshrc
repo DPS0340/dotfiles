@@ -283,7 +283,7 @@ export CMAKE_C_COMPILER=/usr/bin/gcc
 
 export TF_REGISTRY_CLIENT_TIMEOUT=3600
 
-alias tf=tofu
+alias tf='TF_REGISTRY_CLIENT_TIMEOUT=3600 tofu'
 
 # unset DISPLAY
 
