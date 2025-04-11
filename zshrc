@@ -254,7 +254,7 @@ function set-upstream () {
 	git branch --set-upstream-to=$remote/$branch $branch
 }
 
-export TERM=xterm-256color
+# export TERM=xterm-256color
 export EDITOR="nvim"
 export K9S_EDITOR="nvim"
 
