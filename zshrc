@@ -86,10 +86,17 @@ alias gmc='git merge --continue'
 
 alias gcob='git checkout -b'
 
+unalias c
+alias c='code'
+
 alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
 alias vv='nvim .'
+
+alias lv='lvim'
+alias lvi='lvim'
+alias lvv='lvim .'
 
 alias hh='history'
 
