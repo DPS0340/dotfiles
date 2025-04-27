@@ -8,6 +8,12 @@ nix-channel --add https://nixos.org/channels/nixpkgs-unstable unstable
 export NIXPKGS_ALLOW_UNFREE=1
 export NIXPKGS_ALLOW_INSECURE=1
 
-nix profile install github:dps0340/...s
+_OS=$(uname | tr '[:upper:]' '[:lower:]')
+_ARCH=$(uname -m)
+
+flake_attr="legacyPackages.${_ARCH}-${_OS}.homeConfigurations."dps0340".activationPackage"
+
+nix profile install github:dps0340/...s#$flake_attr
+nix profile upgrade $flake_attr
 
 go install golang.org/x/tools/gopls@latest
