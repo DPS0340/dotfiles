@@ -23,10 +23,10 @@ SWITCH_COMMAND="home-manager"
 if [ $_OS == "darwin" ]; then
     SWITCH_COMMAND="darwin-rebuild"
     if ! darwin-rebuild; then
-        nix run nix-darwin/nix-darwin-24.11#darwin-rebuild -- --flake ~/programming/...s#$_USER switch
+        nix profile install nix-darwin/master#darwin-rebuild
     fi
 fi
 
-$SWITCH_COMMAND switch --flake ~/programming/...s#$_USER
+$SWITCH_COMMAND switch --flake github:dps0340/...s#$_USER
 
 go install golang.org/x/tools/gopls@latest
