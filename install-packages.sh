@@ -21,8 +21,8 @@ SWITCH_COMMAND="home-manager"
 
 if [ $_OS == "darwin" ]; then
     SWITCH_COMMAND="darwin-rebuild"
-    if [ $(darwin-rebuild) -ne 0 ]; then
-        nix run nix-darwin/master#darwin-rebuild -- switch
+    if ! darwin-rebuild; then
+        nix run nix-darwin/nix-darwin-24.11#darwin-rebuild -- --flake github:dps0340/...s#dps0340 switch
     fi
 fi
 
