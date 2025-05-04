@@ -21,11 +21,8 @@ else
     eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-LOCATION=$(realpath "$0")
-DIR=$(dirname "$LOCATION")
-
 if [ "$(uname)" = "Linux" ]; then
-    $DIR/rclone.sh
+    ~/dotfiles/rclone.sh
 fi
 
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
