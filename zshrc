@@ -91,7 +91,8 @@ alias gmc='git merge --continue'
 alias gcob='git checkout -b'
 
 unalias c
-alias c='code'
+alias c='windsurf'
+alias code='windsurf'
 
 alias v='nvim'
 alias vi='nvim'
@@ -357,3 +358,6 @@ alias conda='micromamba'
 
 # Created by `pipx` on 2025-01-09 03:05:54
 export PATH="$PATH:/home/dps0340/.local/bin"
+
+# Added by Windsurf
+export PATH="/Users/lee/.codeium/windsurf/bin:$PATH"
