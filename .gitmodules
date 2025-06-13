@@ -25,3 +25,6 @@
 [submodule "tmux-continuum"]
 	path = tmux/plugins/tmux-continuum
 	url = https://github.com/tmux-plugins/tmux-continuum
+[submodule "...s"]
+	path = ...s
+	url = https://github.com/DPS0340/...s
