@@ -35,6 +35,7 @@ kubectl krew install view-secret
 kubectl krew install view-cert
 kubectl krew install neat
 kubectl krew install df-pv
+kubectl krew install node-shell
 
 (crontab -l 2>/dev/null; cat $DIR/crontab)| crontab -
 
