@@ -91,8 +91,8 @@ alias gmc='git merge --continue'
 alias gcob='git checkout -b'
 
 unalias c
-alias c='windsurf'
-alias code='windsurf'
+alias c='code'
+alias code='code'
 
 alias v='nvim'
 alias vi='nvim'
