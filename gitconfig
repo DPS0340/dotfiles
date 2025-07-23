@@ -62,8 +62,8 @@ l = "log \
     --pretty=format:'%Cred%h %Creset-%C(yellow)%d %Creset%s %Cgreen(%cr)%C(bold blue)<%an>'"
 clr = "clean -fx"
 [credential "https://github.com"]
-helper = !/etc/profiles/per-user/lee/bin/gh auth git-credential
+helper = !$HOME/.nix-profile/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-helper = !/etc/profiles/per-user/lee/bin/gh auth git-credential
+helper = !$HOME/.nix-profile/bin/gh auth git-credential
 [submodule]
 recurse = true
