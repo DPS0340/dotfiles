@@ -14,6 +14,6 @@ _GID=$(id -g $USER)
 
 touch nohup-rclone.out
 
-mountpoint ~/pdf || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full onedrive-personal:pdf ~/pdf >> ~/dotfiles/nohup-rclone.out 2>&1 &
-mountpoint ~/paper || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full onedrive-personal:paper ~/paper >> ~/dotfiles/nohup-rclone.out 2>&1 &
-mountpoint ~/auth || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full onedrive:auth ~/auth >> ~/dotfiles/nohup-rclone.out 2>&1 &
+mountpoint ~/pdf || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:pdf ~/pdf >> ~/dotfiles/nohup-rclone.out 2>&1 &
+mountpoint ~/paper || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:paper ~/paper >> ~/dotfiles/nohup-rclone.out 2>&1 &
+mountpoint ~/auth || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:auth ~/auth >> ~/dotfiles/nohup-rclone.out 2>&1 &
