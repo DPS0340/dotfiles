@@ -25,8 +25,13 @@ if [ "$(uname)" = "Linux" ]; then
     ~/dotfiles/rclone.sh
 fi
 
-if [ "$(uname)" = "Linux" ] && [ "$(ps -ef | grep kime-xim)" -lt 2 ] ; then
-    nohup kime-xim &>> /var/log/kime-xim.log &
+if [ "$(uname)" = "Linux" ]; then
+    pgrep -x kime-xim
+    exit_code=$?
+    if [ $exit_code -ne 0 ]; then
+        echo "Launch kime-xim."
+        nohup kime-xim &>> kime-xim.log &
+    fi
 fi
 
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
