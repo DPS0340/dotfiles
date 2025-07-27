@@ -47,13 +47,6 @@ ln -s $DIR/gitignore ~/.gitignore
 
 ln -s "~/.wine/drive_c/users/dps0340/Documents/KakaoTalk Downloads" ~/kakaotalk-downloads
 
-brew install --cask orbstack macfuse onedrive
-
-brew tap homebrew/cask-fonts
-brew install font-jetbrains-mono-nerd-font
-
-brew install coreutils zplug zinit pyenv neovim eza ctags thefuck
-
 $DIR/install-packages.sh
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
