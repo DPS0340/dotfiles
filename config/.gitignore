@@ -15,4 +15,7 @@
 !k9s/*
 !k9s/**/*
 !locale.conf
+!environment.d
+!environment.d/*
+!environment.d/**/*
 **/__pycache__
