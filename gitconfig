@@ -1,12 +1,12 @@
 [user]
-name = Jiho Lee
-email = optional.int@kakao.com
+	name = Jiho Lee
+	email = optional.int@kakao.com
 [core]
 autocrlf = input
-editor = nvim
-pager = less -F -X
-excludesFile = $HOME/.gitignore
-fsmonitor = true
+	editor = nvim
+	pager = less -F -X
+	excludesFile = /Users/lee/.gitignore
+fsmonitor = false
 untrackedCache = true
 [column]
 ui = auto
@@ -22,7 +22,7 @@ colorMoved = plain
 mnemonicPrefix = true
 renames = true
 [push]
-default = current
+	default = current
 autoSetupRemote = true
 followTags = true
 [fetch]
@@ -33,7 +33,7 @@ all = true
 conflictstyle = zdiff3
 [pull]
 rebase = true
-default = current
+	default = current
 [help]
 autocorrect = prompt
 [commit]
@@ -53,7 +53,7 @@ smudge = git-lfs smudge -- %f
 process = git-lfs filter-process
 required = true
 [color]
-pager = true
+	pager = true
 ui = true
 [alias]
 l = "log \
