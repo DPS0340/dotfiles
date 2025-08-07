@@ -4,4 +4,8 @@ if [ "$(uname)" = "Linux" ]; then
     setxkbmap -option ctrl:nocaps
 fi
 
+if [ "$(uname)" = "Darwin" ]; then
+    chflags nohidden
+fi
+
 ~/dotfiles/rclone.sh
