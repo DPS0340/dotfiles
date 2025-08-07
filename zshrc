@@ -24,10 +24,6 @@ else
 fi
 
 if [ "$(uname)" = "Linux" ]; then
-    ~/dotfiles/rclone.sh
-fi
-
-if [ "$(uname)" = "Linux" ]; then
     pgrep -x kime-xim
     exit_code=$?
     if [ $exit_code -ne 0 ]; then
