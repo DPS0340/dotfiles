@@ -8,7 +8,9 @@ fi
 # autoload -Uz compinstall && compinstall
 # autoload -Uz compinit && compinit
 
-setxkbmap -option ctrl:nocaps
+if [ "$(uname)" = "Linux" ]; then
+    setxkbmap -option ctrl:nocaps
+fi
 
 # export DISPLAY=':0.0'
 # export XAUTHORITY=~/.Xauthority

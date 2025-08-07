@@ -1,6 +1,6 @@
-~/dotfiles/rclone.sh
-
-setxkbmap -option ctrl:nocaps
+if [ "$(uname)" = "Linux" ]; then
+    setxkbmap -option ctrl:nocaps
+fi
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
