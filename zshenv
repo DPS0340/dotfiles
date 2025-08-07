@@ -1,6 +1,4 @@
-if [ "$(uname)" = "Linux" ] && [ "$(mount -l | grep "pdf")" = "" ]; then
-	~/dotfiles/rclone.sh
-fi
+~/dotfiles/rclone.sh
 
 setxkbmap -option ctrl:nocaps
 
