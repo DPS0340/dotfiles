@@ -53,7 +53,7 @@ ln -s $DIR/gitignore ~/.gitignore
 
 ln -s "~/.wine/drive_c/users/dps0340/Documents/KakaoTalk Downloads" ~/kakaotalk-downloads
 
-$DIR/install-packages.sh
+$DIR/...s/install-packages.sh
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
