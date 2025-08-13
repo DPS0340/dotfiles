@@ -28,7 +28,7 @@ if [ "$(uname)" = "Linux" ]; then
     exit_code=$?
     if [ $exit_code -ne 0 ]; then
         echo "Launch kime-xim."
-        nohup kime-xim &>> kime-xim.log &
+        nohup kime-xim &>> kime-xim.log & disown
     fi
 fi
 

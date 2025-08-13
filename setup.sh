@@ -11,33 +11,39 @@ sudo -v
 
 datetime=$(date +'%Y-%m-%d_%H:%M:%S')
 
-mv ~/.vic ~/.vim.bak-$datetime
+mv ~/.vim ~/.vim.bak-$datetime
 mv ~/.vimrc ~/.vimrc.bak-$datetime
 mv ~/.zshrc ~/.zshrc.bak-$datetime
-mv ~/.p10k.zsh ~/.p10k.zsh.bak-$datetime
 mv ~/.config ~/.config.bak-$datetime
 mv ~/.zsh ~/.zsh.bak-$datetime
+mv ~/.xinitrc ~/.xinitrc.bak-$datetime
+mv ~/.profile ~/.profile.bak-$datetime
 mv ~/.xprofile ~/.xprofile.bak-$datetime
 mv ~/.zprofile ~/.zprofile.bak-$datetime
-mv ~/.plugin ~/.zplugin.bak-$datetime
+mv ~/.zplugin ~/.zplugin.bak-$datetime
+mv ~/.zshenv ~/.zshenv.bak-$datetime
 mv ~/.vim_runtime ~/.vim_runtime.bak-$datetime
+mv ~/.p10k.zsh ~/.p10k.zsh.bak-$datetime
 mv ~/.tmux ~/.tmux.bak-$datetime
 mv ~/.tmux.conf ~/.tmux.conf.bak-$datetime
 mv ~/.wezterm.lua ~/.wezterm.lua.bak-$datetime
 mv ~/.gitconfig ~/.gitconfig.bak-$datetime
 mv ~/.gitignore ~/.gitignore.bak-$datetime
+
 mv ~/kakaotalk-downloads ~/kakaotalk-downloads.bak-$datetime
 
 ln -s $DIR/vim ~/.vim
 ln -s $DIR/vimrc ~/.vimrc
 ln -s $DIR/zshrc ~/.zshrc
-ln -s $DIR/vim_runtime ~/.vim_runtime
 ln -s $DIR/config ~/.config
 ln -s $DIR/zsh ~/.zsh
+ln -s $DIR/xinitrc ~/.xinitrc
+ln -s $DIR/profile ~/.profile
 ln -s $DIR/xprofile ~/.xprofile
 ln -s $DIR/zprofile ~/.zprofile
 ln -s $DIR/zplugin ~/.zplugin
 ln -s $DIR/zshenv ~/.zshenv
+ln -s $DIR/vim_runtime ~/.vim_runtime
 ln -s $DIR/p10k.zsh ~/.p10k.zsh
 ln -s $DIR/tmux ~/.tmux
 ln -s $DIR/tmux.conf ~/.tmux.conf
