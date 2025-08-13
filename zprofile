@@ -1,4 +1,4 @@
-export XDG_DATA_DIRS="$HOME/.nix-profile/share:$XDG_DATA_DIRS"
+export XDG_DATA_DIRS="/usr/share:$HOME/.nix-profile/share:$XDG_DATA_DIRS"
 
 if [ "$(uname)" = "Linux" ]; then
     setxkbmap -option ctrl:nocaps
