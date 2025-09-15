@@ -16,6 +16,6 @@ _GID=$(id -g $USER)
 
 touch ~/nohup-rclone.out
 
-( mount | grep ~/pdf ) || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:pdf ~/pdf >> ~/nohup-rclone.out 2>&1 & disown
-( mount | grep ~/paper ) || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:paper ~/paper >> ~/nohup-rclone.out 2>&1 & disown
-( mount | grep ~/.ssh/remote ) || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:auth ~/.ssh/remote >> ~/nohup-rclone.out 2>&1 & disown
+flock -x -n ~/rclone.mount.pdf.lock -c "( mount | grep ~/pdf ) || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:pdf ~/pdf >> ~/nohup-rclone.out 2>&1 & disown"
+flock -x -n ~/rclone.mount.paper.lock -c "( mount | grep ~/paper ) || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:paper ~/paper >> ~/nohup-rclone.out 2>&1 & disown"
+flock -x -n ~/rclone.mount.ssh-remote.lock -c "( mount | grep ~/.ssh/remote ) || nohup rclone mount --allow-non-empty --log-level ERROR --allow-other --uid $_UID --gid $_GID --vfs-cache-mode full google-drive:auth ~/.ssh/remote >> ~/nohup-rclone.out 2>&1 & disown"
