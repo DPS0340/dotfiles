@@ -8,3 +8,5 @@ DIR=$(dirname "$LOCATION")
 
 yay -S powerpill downgrade
 sudo pacman -Syu vi vim neovim wol gcc python curl wget docker docker-compose man firefox chromium xsel nerd-fonts wine --noconfirm
+yay -S --needed kakaotalk
+
