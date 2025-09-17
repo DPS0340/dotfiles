@@ -7,9 +7,17 @@ set -x
 
 mkdir ~/pdf ~/paper ~/.ssh/remote > /dev/null 2>&1
 
-chown $USER ~/pdf
-chown $USER ~/paper
-chown $USER ~/.ssh/remote
+if [ "$(stat -c '%U' ~/pdf)" != "$USER" ]; then
+    chown $USER ~/pdf
+fi
+
+if [ "$(stat -c '%U' ~/paper)" != "$USER" ]; then
+    chown $USER ~/paper
+fi
+
+if [ "$(stat -c '%U' ~/.ssh/remote)" != "$USER" ]; then
+    chown $USER ~/.ssh/remote
+fi
 
 _UID=$(id -u $USER)
 _GID=$(id -g $USER)
