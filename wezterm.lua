@@ -7,7 +7,7 @@ local config = wezterm.config_builder()
 -- This is where you actually apply your config choices
 config.color_scheme = "Catppuccin Mocha"
 config.font = wezterm.font "JetBrainsMono Nerd Font"
-config.font_size = 9.5
+config.font_size = 14
 
 config.audible_bell = "Disabled"
 
