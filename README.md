@@ -6,7 +6,7 @@
 cd
 git clone --recursive https://github.com/DPS0340/dotfiles
 cd dotfiles
-./before-setup.sh
-./setup.sh
-./after-setup.sh
+./scripts/setup/before-setup.sh
+./scripts/setup/setup.sh
+./scripts/setup/after-setup.sh
 ```

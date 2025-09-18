@@ -1,1 +1,1 @@
-@reboot ~/dotfiles/change-caps-to-ctrl.sh
+@reboot ~/dotfiles/scripts/misc/change-caps-to-ctrl.sh

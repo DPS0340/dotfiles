@@ -5,6 +5,7 @@ PS4="\n\033[1;33m>>\033[0m "; set -x
 
 LOCATION=$(realpath "$0")
 DIR=$(dirname "$LOCATION")
+BASE_DIR=$(echo $DIR | xargs -I {} dirname {} | xargs -I {} dirname {})
 
 # Cache sudo credential
 sudo -v
@@ -37,6 +38,6 @@ kubectl krew install neat
 kubectl krew install df-pv
 kubectl krew install node-shell
 
-(crontab -l 2>/dev/null; cat $DIR/crontab)| crontab -
+(crontab -l 2>/dev/null; cat $BASE_DIR/crontab)| crontab -
 
 LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh)
