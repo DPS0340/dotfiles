@@ -119,7 +119,6 @@ alias nf='neofetch'
 
 alias cx='chmod +x'
 alias s='sudo'
-alias '$'=''
 
 # Wsl specific settings
 if [ ! -z $WSL_ENABLE ]; then
@@ -308,8 +307,6 @@ alias tf='TF_REGISTRY_CLIENT_TIMEOUT=3600 tofu'
 
 # unset DISPLAY
 
-tmux new
-
 export YVM_DIR=/Users/lee/.yvm
 [ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
 
@@ -369,3 +366,23 @@ export PATH="$PATH:/home/dps0340/.local/bin"
 
 # Added by Windsurf
 export PATH="/Users/lee/.codeium/windsurf/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/lee/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# OpenClaw Completion
+[ -f "/Users/lee/.openclaw/completions/openclaw.zsh" ] && source "/Users/lee/.openclaw/completions/openclaw.zsh"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/lee/.cache/lm-studio/bin"
+# End of LM Studio CLI section
+
