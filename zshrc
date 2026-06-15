@@ -74,6 +74,9 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/BlaCk-Void.zshrc
 
+# Robust tmux session creation
+alias tn='tmux new-session -d -s main && tmux attach -t main'
+alias tk='tmux kill-session -t main 2>/dev/null; tmux new-session -d -s main && tmux attach -t main'
 alias rr='source ~/.zshrc'
 
 alias glom='git pull origin main || git pull origin master'
