@@ -1,7 +1,7 @@
 # Auto-attach to tmux: if not already in a session, attach (or create one)
-# Only run in interactive shells with a TTY (avoids breaking non-interactive contexts like Hermes terminal)
-if [[ -z "$TMUX" && $- == *i* && -t 0 ]] && command -v tmux >/dev/null 2>&1; then
-    exec tmux attach || exec tmux new-session -A -s default
+# Opt-in via TMUX_AUTO_ATTACH=1; runs zsh INSIDE tmux (no exec), so you get zsh prompt
+if [[ -z "$TMUX" && $- == *i* && -t 0 && "${TMUX_AUTO_ATTACH:-0}" == "1" ]] && command -v tmux >/dev/null 2>&1; then
+    tmux attach -t default 2>/dev/null || tmux new-session -A -s default
 fi
 
 # Initialization code that may require console input (password prompts, [y/n]
