@@ -4,6 +4,12 @@ if [[ -z "$TMUX" && $- == *i* && -t 0 && "${TMUX_AUTO_ATTACH:-0}" == "1" ]] && c
     tmux attach -t default 2>/dev/null || tmux new-session -A -s default
 fi
 
+# Guard: prevent re-initialization when sourcing ~/.zshrc multiple times
+if [[ -n "$__ZSHRC_LOADED" ]]; then
+    return 0
+fi
+export __ZSHRC_LOADED=1
+
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
