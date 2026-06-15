@@ -75,12 +75,26 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/BlaCk-Void.zshrc
 
 # Robust tmux session creation
-# Uses exec to replace shell with tmux (tmux runs zsh as default-shell → zsh inside tmux)
-alias tn='exec tmux new-session -A -s main'
-# For existing tmux: switch to main session (needs to be run from inside tmux)
-alias tm='tmux switch-client -t main 2>/dev/null || tmux attach -t main 2>/dev/null || exec tmux new-session -A -s main'
+# Try attach first, then create+attach (no exec on failure - prevents terminal close)
+# Use 'tn' for new/attach main session
+tn() {
+  tmux attach -t main 2>/dev/null && return
+  tmux new-session -A -s main 2>/dev/null && return
+  tmux new-session -d -s main 2>/dev/null && tmux attach -t main && return
+  echo "tmux failed: no controlling TTY"
+  return 1
+}
+# Switch to main session (if in tmux), fallback to attach
+tm() {
+  tmux switch-client -t main 2>/dev/null && return
+  tmux attach -t main 2>/dev/null && return
+  tn
+}
 # Force fresh main session
-alias tk='tmux kill-session -t main 2>/dev/null; exec tmux new-session -A -s main'
+tk() {
+  tmux kill-session -t main 2>/dev/null
+  tn
+}
 alias rr='source ~/.zshrc'
 
 alias glom='git pull origin main || git pull origin master'
