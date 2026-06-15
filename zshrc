@@ -1,7 +1,8 @@
 # Auto-attach to tmux: if not already in a session, attach (or create one)
 # Opt-in via TMUX_AUTO_ATTACH=1; runs zsh INSIDE tmux (no exec), so you get zsh prompt
 export TMUX_AUTO_ATTACH=1
-if [[ -z "$TMUX" && $- == *i* && -t 0 && "${TMUX_AUTO_ATTACH:-0}" == "1" ]] && command -v tmux >/dev/null 2>&1; then
+# Check: not in tmux, interactive, real terminal (not "dumb" TERM or wezterm env)
+if [[ -z "$TMUX" && $- == *i* && ( "$TERM" != "dumb" || -n "$WEZTERM_PANE" || -n "$WEZTERM_UNIX_SOCKET" ) && "${TMUX_AUTO_ATTACH:-0}" == "1" ]] && command -v tmux >/dev/null 2>&1; then
     tmux attach -t default 2>/dev/null || tmux new-session -A -s default
 fi
 
