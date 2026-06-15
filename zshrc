@@ -1,5 +1,6 @@
 # Auto-attach to tmux: if not already in a session, attach (or create one)
-if [ -z "$TMUX" ] && command -v tmux >/dev/null 2>&1; then
+# Only run in interactive shells with a TTY (avoids breaking non-interactive contexts like Hermes terminal)
+if [[ -z "$TMUX" && $- == *i* && -t 0 ]] && command -v tmux >/dev/null 2>&1; then
     exec tmux attach || exec tmux new-session -A -s default
 fi
 
