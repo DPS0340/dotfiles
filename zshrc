@@ -3,7 +3,14 @@
 export TMUX_AUTO_ATTACH=1
 # Check: not in tmux, interactive, real terminal (not "dumb" TERM or wezterm env)
 if [[ -z "$TMUX" && $- == *i* && ( "$TERM" != "dumb" || -n "$WEZTERM_PANE" || -n "$WEZTERM_UNIX_SOCKET" ) && "${TMUX_AUTO_ATTACH:-0}" == "1" ]] && command -v tmux >/dev/null 2>&1; then
-    tmux attach -t default 2>/dev/null || tmux new-session -A -s default
+    # Try attach to existing session first
+    if tmux attach -t default 2>/dev/null; then
+        : # attached successfully
+    else
+        # Create detached session, then attach (avoids "not a terminal" on some TTYs)
+        tmux new-session -d -s default 2>/dev/null
+        tmux attach -t default 2>/dev/null || tmux new-session -A -s default
+    fi
 fi
 
 # Guard: prevent re-initialization when sourcing ~/.zshrc multiple times
