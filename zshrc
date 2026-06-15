@@ -74,6 +74,9 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh/BlaCk-Void.zshrc
 
+# Unalias tmux from oh-my-zsh plugin (wrapper interferes with manual tmux)
+unalias tmux 2>/dev/null
+
 # Robust tmux session creation
 # Try attach first, then create+attach (no exec on failure - prevents terminal close)
 # Use 'tn' for new/attach main session
