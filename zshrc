@@ -263,6 +263,7 @@ git config --global core.excludesFile ~/.gitignore
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/lib/pkgconfig
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/share/pkgconfig
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.hermes/node/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
