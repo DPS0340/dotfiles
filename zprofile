@@ -5,7 +5,10 @@ if [ "$(uname)" = "Linux" ]; then
 fi
 
 if [ "$(uname)" = "Darwin" ]; then
-    chflags nohidden
+    chflags nohidden ~/Library
 fi
 
-~/dotfiles/rclone.sh
+~/dotfiles/scripts/rclone/rclone.sh
+
+# Hermes Agent — ensure ~/.local/bin is on PATH
+export PATH="$HOME/.local/bin:$PATH"

@@ -432,3 +432,6 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:/Users/lee/.cache/lm-studio/bin"
 # End of LM Studio CLI section
 
+
+# Added by Antigravity IDE
+export PATH="/Users/lee/.antigravity-ide/antigravity-ide/bin:$PATH"

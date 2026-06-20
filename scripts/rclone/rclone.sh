@@ -3,7 +3,6 @@
 # Enable debug output
 # PS4="\n\033[1;33m>>\033[0m "; set -x
 
-set -x
 
 mkdir ~/pdf ~/paper ~/.ssh/remote > /dev/null 2>&1
 
