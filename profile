@@ -17,3 +17,4 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:/Users/lee/.cache/lm-studio/bin"
 # End of LM Studio CLI section
 
+. "$HOME/.cargo/env"
