@@ -160,7 +160,7 @@ alias hh='history'
 # alias cat='bat'
 alias b='bat'
 
-alias nf='neofetch'
+alias ff='fastfetch'
 
 alias cx='chmod +x'
 alias s='sudo'
