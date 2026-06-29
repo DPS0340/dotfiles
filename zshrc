@@ -435,3 +435,14 @@ export PATH="$PATH:/Users/lee/.cache/lm-studio/bin"
 
 # Added by Antigravity IDE
 export PATH="/Users/lee/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+# Source modular config files from ~/.zshrc.d/ and ~/dotfiles/zshrc.d/
+for _dir in "$HOME/.zshrc.d" "$HOME/dotfiles/zshrc.d"; do
+    if [[ -d "$_dir" ]]; then
+        for _file in "$_dir"/*.sh; do
+            [[ -f "$_file" ]] && source "$_file"
+        done
+        unset _file
+    fi
+done
+unset _dir
