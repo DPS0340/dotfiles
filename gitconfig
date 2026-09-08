@@ -5,7 +5,7 @@
     autocrlf = input
 	editor = nvim
 	pager = less -F -X
-	excludesFile = /Users/lee/.gitignore
+	excludesFile = /home/dps0340/.gitignore
     fsmonitor = false
     untrackedCache = true
 [column]
