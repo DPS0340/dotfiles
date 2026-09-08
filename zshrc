@@ -446,3 +446,5 @@ for _dir in "$HOME/.zshrc.d" "$HOME/dotfiles/zshrc.d"; do
     fi
 done
 unset _dir
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
