@@ -10,6 +10,7 @@ BASE_DIR=$(echo $DIR | xargs -I {} dirname {} | xargs -I {} dirname {})
 # Cache sudo credential
 sudo -v
 
+echo /home/$HOME/.nix-profile/bin/zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
 
 nvim +'PlugInstall --sync' +qa
